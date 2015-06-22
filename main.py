@@ -1,6 +1,6 @@
 import csv
 
-__author__ = 'sld-generic'
+__author__ = 'Ritwik Dutta'
 
 # Create array for holding raw header fields
 author_fields_csv_raw = []
