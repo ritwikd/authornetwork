@@ -1,6 +1,7 @@
-import csv
+from csv import reader as csvreader
 
 __author__ = 'Ritwik Dutta'
+
 
 # Create array for holding raw header fields
 csv_author_fields = []
@@ -15,7 +16,7 @@ graph_edges = {}
 
 # Read CSV file
 with open("input/data.csv", "r") as citation_data:
-    data_reader = csv.reader(citation_data)
+    data_reader = csvreader(citation_data)
     # Process by row
     for citation in data_reader:
         # Add author field to array
