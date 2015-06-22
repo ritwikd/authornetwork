@@ -2,7 +2,6 @@ from csv import reader as csvreader
 
 __author__ = 'Ritwik Dutta'
 
-
 # Create array for holding raw header fields
 csv_author_fields = []
 # Remove header fields
