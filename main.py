@@ -9,7 +9,7 @@ with open("data.csv", "r") as publication_data:
     reader = csv.reader(publication_data)
     #Process by row
     for row in reader:
-        
+
         author_fields_csv_raw.append(row[1])
 
 author_fields_csv_raw = author_fields_csv_raw[2:]
