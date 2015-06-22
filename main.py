@@ -3,99 +3,99 @@ import csv
 __author__ = 'Ritwik Dutta'
 
 # Create array for holding raw header fields
-author_fields_csv_raw = []
+csv_author_fields = []
+# Remove header fields
+csv_author_fields = csv_author_fields[2:]
+# Create array for separated author names
+names_separated = []
+# Create dict for holding ID
+graph_node_ids = {}
+# Create dict for holding edges
+graph_edges = {}
 
 # Read CSV file
-with open("input/data.csv", "r") as publication_data:
-    reader = csv.reader(publication_data)
+with open("input/data.csv", "r") as citation_data:
+    data_reader = csv.reader(citation_data)
     # Process by row
-    for row in reader:
+    for citation in data_reader:
         # Add author field to array
-        author_fields_csv_raw.append(row[1])
-
-# Remove header fields
-author_fields_csv_raw = author_fields_csv_raw[2:]
-# Create array for separated author names
-authors_field_csv_separated = []
-# Create dict for holding ID
-author_ids = {}
-# Create dict for holding edges
-author_edges = {}
+        csv_author_fields.append(citation[1])
 
 # Parse by field per document
-for author_field_csv in author_fields_csv_raw:
+for field in csv_author_fields:
     # Split by semicolon delimiter
-    author_names = author_field_csv.split(';')
+    field_names = field.split(';')
     # Step through each individual author name
-    for author_name in author_names:
+    for name in field_names:
         # Remove prefixed whitespace from author name
-        author_name = author_name.strip()
+        name = name.strip()
         # Check if author already in array
-        if author_name not in authors_field_csv_separated:
+        if name not in names_separated:
             # If not, add to array
-            authors_field_csv_separated.append(author_name)
-            author_ids[author_name] = len(authors_field_csv_separated)
+            names_separated.append(name)
+            graph_node_ids[name] = len(names_separated)
 
 # Get total number of authors
-num_total_authors = len(authors_field_csv_separated)
+total_names = len(names_separated)
 
 # Create output handler and file
-output_author_nodes_csv = open("output/author_nodes.csv", "w+")
+csv_nodes_fh = open("output/author_nodes.csv", "w+")
 # Set output file delimiter
-output_author_nodes_csv_delimiter = ";"
+csv_nodes_delimiter = ";"
 # Write CSV column title
-output_author_nodes_csv.write("Label" + output_author_nodes_csv_delimiter + "Id\n")
+csv_nodes_fh.write("Label" + csv_nodes_delimiter + "Id\n")
 # Step through each author name
-for author_name in authors_field_csv_separated:
-    output_author_nodes_csv.write(author_name + output_author_nodes_csv_delimiter + str(author_ids[author_name]) + "\n")
+for name in names_separated:
+    csv_nodes_fh.write(name + csv_nodes_delimiter + str(graph_node_ids[name]) + "\n")
 # Print output
-print str(num_total_authors) + " author names successfully written to file in CSV format."
+print str(total_names) + " author names successfully written to file in CSV format."
 # Close output handler
-output_author_nodes_csv.close()
+csv_nodes_fh.close()
 
 # Step through each author name
-for author_name in authors_field_csv_separated:
+for name in names_separated:
     # Create empty edge array for each author
-    author_edges[author_ids[author_name]] = []
+    graph_edges[graph_node_ids[name]] = []
 
 # Step through each field in all fields
-for author_field_csv in author_fields_csv_raw:
+for field in csv_author_fields:
     # Split names at semicolon delimiter
-    author_names = author_field_csv.split(';')
+    field_names = field.split(';')
     # Step through each name in the field
-    for edge_start_author in author_names:
+    for edge_start_name in field_names:
         # Build list of all other author names in the field for edges
-        author_name_index = author_names.index(edge_start_author)
-        author_names_other = author_names[:author_name_index] + author_names[author_name_index + 1:]
+        name_index = field_names.index(edge_start_name)
+        other_names = field_names[:name_index] + field_names[name_index + 1:]
         # Step through every possible edge end
-        for edge_end_author in author_names_other:
+        for edge_end_name in other_names:
             # Create ids for start and end of edge
-            edge_start_id = author_ids[edge_start_author.strip()]
-            edge_end_id = author_ids[edge_end_author.strip()]
+            edge_start_id = graph_node_ids[edge_start_name.strip()]
+            edge_end_id = graph_node_ids[edge_end_name.strip()]
             # Check if edge exists currently
-            if edge_end_id not in author_edges[edge_start_id]:
+            if edge_end_id not in graph_edges[edge_start_id]:
                 # Check if edge already exists in reverse
-                if edge_start_id not in author_edges[edge_end_id]:
+                if edge_start_id not in graph_edges[edge_end_id]:
                     # Create edge
-                    author_edges[edge_start_id].append(edge_end_id)
+                    graph_edges[edge_start_id].append(edge_end_id)
 
 # Create output handler and file
-output_author_edges_csv = open("output/author_edges.csv", "w+")
+csv_edges_fh = open("output/author_edges.csv", "w+")
 # Set output file delimiter
-output_author_edges_csv_delimiter = ","
+csv_edges_delimiter = ","
 # Write CSV column title
-output_author_edges_csv.write("Source" + output_author_edges_csv_delimiter + "Target\n")
+csv_edges_fh.write("Source" + csv_edges_delimiter + "Target\n")
 # Init variable to hold number of edges
-edges_total = 0
+total_edges = 0
+
 # Step through each author start id
-for edge_start_id in author_edges.keys():
+for edge_start_id in graph_edges.keys():
     # Step through each author end id
-    for edge_end_id in author_edges[edge_start_id]:
+    for edge_end_id in graph_edges[edge_start_id]:
         # Write edge in delimited format
-        output_author_edges_csv.write(str(edge_start_id) + output_author_edges_csv_delimiter + str(edge_end_id) + "\n")
+        csv_edges_fh.write(str(edge_start_id) + csv_edges_delimiter + str(edge_end_id) + "\n")
         # Increment edge total
-        edges_total += 1
+        total_edges += 1
 # Print output
-print str(edges_total) + " author edges successfully written to file in CSV format."
+print str(total_edges) + " author edges successfully written to file in CSV format."
 # Close output handler
-output_author_nodes_csv.close()
+csv_edges_fh.close()
