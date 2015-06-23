@@ -38,18 +38,18 @@ for field in csv_author_fields:
 # Get total number of authors
 total_names = len(names_separated)
 
-# Create output handler and file
-csv_nodes_fh = open("output/author_nodes.csv", "w+")
-# Set output file delimiter
+# Create ieee_2000sets handler and file
+csv_nodes_fh = open("ieee_2000sets/author_nodes.csv", "w+")
+# Set ieee_2000sets file delimiter
 csv_nodes_delimiter = ";"
 # Write CSV column title
 csv_nodes_fh.write("Label" + csv_nodes_delimiter + "Id\n")
 # Step through each author name
 for name in names_separated:
     csv_nodes_fh.write(name + csv_nodes_delimiter + str(graph_node_ids[name]) + "\n")
-# Print output
+# Print ieee_2000sets
 print str(total_names) + " author names successfully written to file in CSV format."
-# Close output handler
+# Close ieee_2000sets handler
 csv_nodes_fh.close()
 
 # Step through each author name
@@ -78,9 +78,9 @@ for field in csv_author_fields:
                     # Create edge
                     graph_edges[edge_start_id].append(edge_end_id)
 
-# Create output handler and file
-csv_edges_fh = open("output/author_edges.csv", "w+")
-# Set output file delimiter
+# Create ieee_2000sets handler and file
+csv_edges_fh = open("ieee_2000sets/author_edges.csv", "w+")
+# Set ieee_2000sets file delimiter
 csv_edges_delimiter = ","
 # Write CSV column title
 csv_edges_fh.write("Source" + csv_edges_delimiter + "Target\n")
@@ -95,7 +95,7 @@ for edge_start_id in graph_edges.keys():
         csv_edges_fh.write(str(edge_start_id) + csv_edges_delimiter + str(edge_end_id) + "\n")
         # Increment edge total
         total_edges += 1
-# Print output
+# Print ieee_2000sets
 print str(total_edges) + " author edges successfully written to file in CSV format."
-# Close output handler
+# Close ieee_2000sets handler
 csv_edges_fh.close()
