@@ -89,6 +89,6 @@ csv_edges_fh.close()
 #Write log statements to file
 csv_log_fp = output_data_path + input_data_name + "log.txt"
 csv_log_fh = open(csv_log_fp, "w+")
-csv_log_fh.write(str(total_names) + " author names successfully written to " + csv_nodes_fp + " in CSV format.")
+csv_log_fh.write(str(total_names) + " author names successfully written to " + csv_nodes_fp + " in CSV format.\n")
 csv_log_fh.write(str(total_edges) + " author edges successfully written to " + csv_edges_fp + "in CSV format.")
 csv_log_fh.close()
