@@ -1,0 +1,12 @@
+<gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static">
+    <nodes>
+      <node id="QinkeWang" label="QinkeWang" />
+      <node id="Kahng,A.B." label="Kahng,A.B." />
+    </nodes>
+    <edges>
+      <edge id="0" source="QinkeWang" target="Kahng,A.B." />
+      <edge id="1" source="Kahng,A.B." target="QinkeWang" />
+    </edges>
+  </graph>
+</gexf>

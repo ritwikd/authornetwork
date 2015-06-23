@@ -1,0 +1,17 @@
+<gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static">
+    <nodes>
+      <node id="Zhu,H." label="Zhu,H." />
+      <node id="Balasa,F." label="Balasa,F." />
+      <node id="Luican,I.I." label="Luican,I.I." />
+    </nodes>
+    <edges>
+      <edge id="0" source="Zhu,H." target="Balasa,F." />
+      <edge id="1" source="Zhu,H." target="Luican,I.I." />
+      <edge id="2" source="Balasa,F." target="Zhu,H." />
+      <edge id="3" source="Balasa,F." target="Luican,I.I." />
+      <edge id="4" source="Luican,I.I." target="Zhu,H." />
+      <edge id="5" source="Luican,I.I." target="Balasa,F." />
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,17 @@
+<gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static">
+    <nodes>
+      <node id="Roth,A." label="Roth,A." />
+      <node id="Petric,V." label="Petric,V." />
+      <node id="Sha,T." label="Sha,T." />
+    </nodes>
+    <edges>
+      <edge id="0" source="Roth,A." target="Petric,V." />
+      <edge id="1" source="Roth,A." target="Sha,T." />
+      <edge id="2" source="Petric,V." target="Roth,A." />
+      <edge id="3" source="Petric,V." target="Sha,T." />
+      <edge id="4" source="Sha,T." target="Roth,A." />
+      <edge id="5" source="Sha,T." target="Petric,V." />
+    </edges>
+  </graph>
+</gexf>

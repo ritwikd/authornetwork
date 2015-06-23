@@ -1,0 +1,44 @@
+<gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static">
+    <nodes>
+      <node id="Carrabina,J." label="Carrabina,J." />
+      <node id="Bagdia,A." label="Bagdia,A." />
+      <node id="Strict,P." label="Strict,P." />
+      <node id="Joven,J." label="Joven,J." />
+      <node id="DeMicheli,G." label="DeMicheli,G." />
+      <node id="Castells-Rufas,D." label="Castells-Rufas,D." />
+    </nodes>
+    <edges>
+      <edge id="0" source="Carrabina,J." target="Castells-Rufas,D." />
+      <edge id="1" source="Carrabina,J." target="Joven,J." />
+      <edge id="2" source="Carrabina,J." target="Bagdia,A." />
+      <edge id="3" source="Carrabina,J." target="Strict,P." />
+      <edge id="4" source="Carrabina,J." target="DeMicheli,G." />
+      <edge id="5" source="Bagdia,A." target="Castells-Rufas,D." />
+      <edge id="6" source="Bagdia,A." target="Carrabina,J." />
+      <edge id="7" source="Bagdia,A." target="Joven,J." />
+      <edge id="8" source="Bagdia,A." target="Strict,P." />
+      <edge id="9" source="Bagdia,A." target="DeMicheli,G." />
+      <edge id="10" source="Strict,P." target="Castells-Rufas,D." />
+      <edge id="11" source="Strict,P." target="Carrabina,J." />
+      <edge id="12" source="Strict,P." target="Joven,J." />
+      <edge id="13" source="Strict,P." target="Bagdia,A." />
+      <edge id="14" source="Strict,P." target="DeMicheli,G." />
+      <edge id="15" source="Joven,J." target="Bagdia,A." />
+      <edge id="16" source="Joven,J." target="Carrabina,J." />
+      <edge id="17" source="Joven,J." target="Castells-Rufas,D." />
+      <edge id="18" source="Joven,J." target="Strict,P." />
+      <edge id="19" source="Joven,J." target="DeMicheli,G." />
+      <edge id="20" source="DeMicheli,G." target="Castells-Rufas,D." />
+      <edge id="21" source="DeMicheli,G." target="Carrabina,J." />
+      <edge id="22" source="DeMicheli,G." target="Joven,J." />
+      <edge id="23" source="DeMicheli,G." target="Bagdia,A." />
+      <edge id="24" source="DeMicheli,G." target="Strict,P." />
+      <edge id="25" source="Castells-Rufas,D." target="Bagdia,A." />
+      <edge id="26" source="Castells-Rufas,D." target="Carrabina,J." />
+      <edge id="27" source="Castells-Rufas,D." target="Joven,J." />
+      <edge id="28" source="Castells-Rufas,D." target="Strict,P." />
+      <edge id="29" source="Castells-Rufas,D." target="DeMicheli,G." />
+    </edges>
+  </graph>
+</gexf>

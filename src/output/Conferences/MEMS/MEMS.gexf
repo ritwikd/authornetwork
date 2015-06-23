@@ -1,0 +1,33 @@
+<gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static">
+    <nodes>
+      <node id="HaitaoYu" label="HaitaoYu" />
+      <node id="PengchengXu" label="PengchengXu" />
+      <node id="XinxinLi" label="XinxinLi" />
+      <node id="MinLiu" label="MinLiu" />
+      <node id="XiaohuaGan" label="XiaohuaGan" />
+    </nodes>
+    <edges>
+      <edge id="0" source="HaitaoYu" target="MinLiu" />
+      <edge id="1" source="HaitaoYu" target="PengchengXu" />
+      <edge id="2" source="HaitaoYu" target="XinxinLi" />
+      <edge id="3" source="HaitaoYu" target="XiaohuaGan" />
+      <edge id="4" source="PengchengXu" target="HaitaoYu" />
+      <edge id="5" source="PengchengXu" target="MinLiu" />
+      <edge id="6" source="PengchengXu" target="XinxinLi" />
+      <edge id="7" source="PengchengXu" target="XiaohuaGan" />
+      <edge id="8" source="XinxinLi" target="HaitaoYu" />
+      <edge id="9" source="XinxinLi" target="PengchengXu" />
+      <edge id="10" source="XinxinLi" target="MinLiu" />
+      <edge id="11" source="XinxinLi" target="XiaohuaGan" />
+      <edge id="12" source="MinLiu" target="HaitaoYu" />
+      <edge id="13" source="MinLiu" target="PengchengXu" />
+      <edge id="14" source="MinLiu" target="XinxinLi" />
+      <edge id="15" source="MinLiu" target="XiaohuaGan" />
+      <edge id="16" source="XiaohuaGan" target="HaitaoYu" />
+      <edge id="17" source="XiaohuaGan" target="PengchengXu" />
+      <edge id="18" source="XiaohuaGan" target="MinLiu" />
+      <edge id="19" source="XiaohuaGan" target="XinxinLi" />
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,17 @@
+<gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static">
+    <nodes>
+      <node id="Kielbik,R." label="Kielbik,R." />
+      <node id="Napieralski,Andrzej" label="Napieralski,Andrzej" />
+      <node id="Szymanski,T." label="Szymanski,T." />
+    </nodes>
+    <edges>
+      <edge id="0" source="Kielbik,R." target="Napieralski,Andrzej" />
+      <edge id="1" source="Kielbik,R." target="Szymanski,T." />
+      <edge id="2" source="Napieralski,Andrzej" target="Kielbik,R." />
+      <edge id="3" source="Napieralski,Andrzej" target="Szymanski,T." />
+      <edge id="4" source="Szymanski,T." target="Napieralski,Andrzej" />
+      <edge id="5" source="Szymanski,T." target="Kielbik,R." />
+    </edges>
+  </graph>
+</gexf>

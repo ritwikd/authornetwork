@@ -2,33 +2,35 @@ __author__ = 'Ritwik Dutta'
 
 # Imports for various required modules
 from csv import reader as csv_parse  # CSV parser
-from sys import argv as cmd_args  # CLI args
+from sys import argv as cli_args  # CLI args
 from os import path, makedirs, listdir  # Filesystem control
-import networkx as nx  #Graph creation and GEXP creation
+import networkx as nx  # Graph creation and GEXP creation
 
-# CLI args
-input_path = cmd_args[1]
-input_dlm = cmd_args[3]
-input_name = input_path.split("/")[3]
-
-# Check for name arg
-if len(cmd_args) == 5:
-    input_name = cmd_args[4]
-
-# Generate full I/O paths and create folders if needed
-input_data_files = listdir(input_path)
-output_data_path = cmd_args[2] + input_name + "/"
-if not path.isdir(output_data_path):
-    makedirs(output_data_path)
-
-# Program vars
+# Global variables
 metadata = []  # CSV metadata
 author_csv = []  # Author fields
 authors = []  # Author names
 edges = {}  # Graph edges
 
+# CLI args
+input_path = cli_args[1]
+input_dlm = cli_args[3]
+input_name = input_path.split("/")[3]
+
+# Name argument override
+if len(cli_args) == 5:
+    input_name = cli_args[4]
+
+# Get input files and output path
+input_files = listdir(input_path)
+output_path = cli_args[2] + input_name + "/"
+
+# Create output directory if needed
+if not path.isdir(output_path):
+    makedirs(output_path)
+
 # Get all files in input dir
-for filename in input_data_files:
+for filename in input_files:
 
     # Read each file
     csv_file = open(input_path + filename, "r")
@@ -68,11 +70,6 @@ graph = nx.DiGraph()
 edge_number = 0
 for field in author_csv:
 
-    # Get names and strip whitespace
-    author_field = field.split(input_dlm)
-    for i in range(len(author_field)):
-        author_field[i] = author_field[i].replace(' ', '')
-
     # Check for multi author papers
     if len(author_field) > 1:
         for edge_start_name in author_field:
@@ -93,7 +90,6 @@ for field in author_csv:
 
                     # Check for edge in other direction
                     if edge_start_name not in edges[edge_end_name]:
-
                         # Create edge and add to graph and dict
                         graph.add_edge(edge_start_name, edge_end_name)
                         edges[edge_start_name] = edges[edge_end_name]
@@ -101,12 +97,12 @@ for field in author_csv:
 
 
 # Write gexf file for graph
-edges_gexf_fp = output_data_path + input_name + ".gexf"
-nx.write_gexf(graph, edges_gexf_fp)
+edges_gexf_path = output_path + input_name + ".gexf"
+nx.write_gexf(graph, edges_gexf_path)
 
 # Write log statements to file
-log_path = output_data_path + input_name + "log.txt"
+log_path = output_path + input_name + "log.txt"
 log_handler = open(log_path, "w+")
-log_msg = str(edge_number) + " author edges successfully written to " + edges_gexf_fp + " in GEXF format"
+log_msg = str(edge_number) + " author edges successfully written to " + edges_gexf_path + " in GEXF format"
 log_handler.write(log_msg)
 log_handler.close()

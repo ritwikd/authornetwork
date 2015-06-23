@@ -1,0 +1,24 @@
+<gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static">
+    <nodes>
+      <node id="Garlan,D." label="Garlan,D." />
+      <node id="Ruchkin,I." label="Ruchkin,I." />
+      <node id="Chaki,S." label="Chaki,S." />
+      <node id="deNiz,D." label="deNiz,D." />
+    </nodes>
+    <edges>
+      <edge id="0" source="Garlan,D." target="Ruchkin,I." />
+      <edge id="1" source="Garlan,D." target="Chaki,S." />
+      <edge id="2" source="Garlan,D." target="deNiz,D." />
+      <edge id="3" source="Ruchkin,I." target="Garlan,D." />
+      <edge id="4" source="Ruchkin,I." target="Chaki,S." />
+      <edge id="5" source="Ruchkin,I." target="deNiz,D." />
+      <edge id="6" source="Chaki,S." target="Garlan,D." />
+      <edge id="7" source="Chaki,S." target="Ruchkin,I." />
+      <edge id="8" source="Chaki,S." target="deNiz,D." />
+      <edge id="9" source="deNiz,D." target="Garlan,D." />
+      <edge id="10" source="deNiz,D." target="Ruchkin,I." />
+      <edge id="11" source="deNiz,D." target="Chaki,S." />
+    </edges>
+  </graph>
+</gexf>
