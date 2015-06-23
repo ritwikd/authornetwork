@@ -1,9 +1,9 @@
+__author__ = 'Ritwik Dutta'
+
 # Imports for various required modules
 from csv import reader as csvreader
 from sys import argv as cmd_args
 from os import path, makedirs, listdir
-
-__author__ = 'Ritwik Dutta'
 
 # Get info from CLI args
 input_data_path = cmd_args[1]
