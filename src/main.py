@@ -7,14 +7,16 @@ __author__ = 'Ritwik Dutta'
 
 #Create input path var
 input_data_path = cmd_args[1]
+#Create input name var
+input_data_name = input_data_path.split("/")[1].split(".")[0]
 #Create output path var
-output_data_path = cmd_args[2]
+output_data_path = input_data_name + "/"
 #Check if output directory exists
 if not path.isdir(output_data_path):
     #If not, create output path
     makedirs(output_data_path)
 #Create input data delimiter var
-input_data_delimiter = cmd_args[3]
+input_data_delimiter = cmd_args[2]
 
 # Create array for holding raw header fields
 csv_author_fields = []
@@ -52,7 +54,7 @@ for field in csv_author_fields:
 total_names = len(names_separated)
 
 # Create output handler and file
-csv_nodes_fh = open(output_data_path + "author_nodes.csv", "w+")
+csv_nodes_fh = open(output_data_path + input_data_name + "nodes.csv", "w+")
 # Set output nodes file delimiter
 csv_nodes_delimiter = ";"
 # Write CSV column title
@@ -92,7 +94,7 @@ for field in csv_author_fields:
                     graph_edges[edge_start_id].append(edge_end_id)
 
 # Create output edges handler and file
-csv_edges_fh = open(output_data_path + "author_edges.csv", "w+")
+csv_edges_fh = open(output_data_path + input_data_name + "edges.csv", "w+")
 # Set output edges file delimiter
 csv_edges_delimiter = ","
 # Write CSV column title
