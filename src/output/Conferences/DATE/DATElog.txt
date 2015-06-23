@@ -1,2 +1,0 @@
-8161 author names successfully written to output/Conferences/DATE/DATEnodes.csv in CSV format.
-20739 author edges successfully written to output/Conferences/DATE/DATEedges.csv in CSV format.

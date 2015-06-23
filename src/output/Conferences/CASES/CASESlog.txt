@@ -1,2 +1,0 @@
-252 author names successfully written to output/Conferences/CASES/CASESnodes.csv in CSV format.
-458 author edges successfully written to output/Conferences/CASES/CASESedges.csv in CSV format.

@@ -1,2 +1,0 @@
-17373 author names successfully written to output/Conferences/ISSCC/ISSCCnodes.csv in CSV format.
-147486 author edges successfully written to output/Conferences/ISSCC/ISSCCedges.csv in CSV format.
