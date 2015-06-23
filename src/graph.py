@@ -4,19 +4,18 @@ __author__ = 'Ritwik Dutta'
 from csv import reader as csvreader
 from sys import argv as cmd_args
 from os import path, makedirs, listdir
+import networkx as nx
 
 # Get info from CLI args
 input_data_path = cmd_args[1]
-input_data_delimiter = cmd_args[2]
+input_data_delimiter = cmd_args[3]
 input_data_name = input_data_path.split("/")[3]
 # Check for name arg
-if len(cmd_args) == 4:
-    input_data_name = cmd_args[3]
-# Generate full I/O paths
+if len(cmd_args) == 5:
+    input_data_name = cmd_args[4]
+# Generate full I/O paths and create folders if needed
 input_data_files = listdir(input_data_path)
-
-output_data_path = "output/" + input_data_name + "/"
-# Make output directory if nonexistent
+output_data_path = cmd_args[2] + input_data_name + "/"
 if not path.isdir(output_data_path):
     makedirs(output_data_path)
 

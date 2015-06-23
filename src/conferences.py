@@ -12,7 +12,9 @@ for category in conference_categories:
     for name in conference_names:
         conference_name_path = conference_category_path +  name + '/'
         time_start = time()
-        system("python graph.py " + conference_name_path + ' ";"')
+        system("python graph.py " + conference_name_path + ' output/Conferences/ ";"')
         time_end = time()
         time_elapsed = time_end - time_start
         print "Graph of " + name + " generated in " + str(time_elapsed) + " seconds."
+
+print "All conference graphs generated."
