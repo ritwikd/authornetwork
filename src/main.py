@@ -10,7 +10,7 @@ input_data_path = cmd_args[1]
 #Create input name var
 input_data_name = input_data_path.split("/")[1].split(".")[0]
 #Create output path var
-output_data_path = input_data_name + "/"
+output_data_path = "output/" + input_data_name + "/"
 #Check if output directory exists
 if not path.isdir(output_data_path):
     #If not, create output path
