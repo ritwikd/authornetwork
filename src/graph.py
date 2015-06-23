@@ -93,6 +93,7 @@ for field in author_csv:
 
                     # Check for edge in other direction
                     if edge_start_name not in edges[edge_end_name]:
+
                         # Create edge and add to graph and dict
                         graph.add_edge(edge_start_name, edge_end_name)
                         edges[edge_start_name] = edges[edge_end_name]
