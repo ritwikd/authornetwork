@@ -8,9 +8,13 @@ from os import path, makedirs, listdir
 # Get info from CLI args
 input_data_path = cmd_args[1]
 input_data_delimiter = cmd_args[2]
+input_data_name = input_data_path.split("/")[3]
+# Check for name arg
+if len(cmd_args) == 4:
+    input_data_name = cmd_args[3]
 # Generate full I/O paths
 input_data_files = listdir(input_data_path)
-input_data_name = input_data_path.split("/")[3]
+
 output_data_path = "output/" + input_data_name + "/"
 # Make output directory if nonexistent
 if not path.isdir(output_data_path):
