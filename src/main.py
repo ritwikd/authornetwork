@@ -1,6 +1,20 @@
+#Imports for various required modules
 from csv import reader as csvreader
+from sys import argv as cmd_args
+from os import path,makedirs
 
 __author__ = 'Ritwik Dutta'
+
+#Create input path var
+input_data_path = cmd_args[1]
+#Create output path var
+output_data_path = cmd_args[2]
+#Check if output directory exists
+if not path.isdir(output_data_path):
+    #If not, create output path
+    makedirs(output_data_path)
+#Create input data delimiter var
+input_data_delimiter = cmd_args[3]
 
 # Create array for holding raw header fields
 csv_author_fields = []
@@ -14,7 +28,7 @@ graph_node_ids = {}
 graph_edges = {}
 
 # Read CSV file
-with open("input/data.csv", "r") as citation_data:
+with open(input_data_path, "r") as citation_data:
     data_reader = csvreader(citation_data)
     # Process by row
     for citation in data_reader:
@@ -24,7 +38,7 @@ with open("input/data.csv", "r") as citation_data:
 # Parse by field per document
 for field in csv_author_fields:
     # Split by semicolon delimiter
-    field_names = field.split(';')
+    field_names = field.split(input_data_delimiter)
     # Step through each individual author name
     for name in field_names:
         # Remove prefixed whitespace from author name
@@ -34,22 +48,21 @@ for field in csv_author_fields:
             # If not, add to array
             names_separated.append(name)
             graph_node_ids[name] = len(names_separated)
-
 # Get total number of authors
 total_names = len(names_separated)
 
-# Create ieee_2000sets handler and file
-csv_nodes_fh = open("ieee_2000sets/author_nodes.csv", "w+")
-# Set ieee_2000sets file delimiter
+# Create output handler and file
+csv_nodes_fh = open(output_data_path + "author_nodes.csv", "w+")
+# Set output nodes file delimiter
 csv_nodes_delimiter = ";"
 # Write CSV column title
 csv_nodes_fh.write("Label" + csv_nodes_delimiter + "Id\n")
 # Step through each author name
 for name in names_separated:
     csv_nodes_fh.write(name + csv_nodes_delimiter + str(graph_node_ids[name]) + "\n")
-# Print ieee_2000sets
+# Print output nodes info
 print str(total_names) + " author names successfully written to file in CSV format."
-# Close ieee_2000sets handler
+# Close output nodes handler
 csv_nodes_fh.close()
 
 # Step through each author name
@@ -78,15 +91,14 @@ for field in csv_author_fields:
                     # Create edge
                     graph_edges[edge_start_id].append(edge_end_id)
 
-# Create ieee_2000sets handler and file
-csv_edges_fh = open("ieee_2000sets/author_edges.csv", "w+")
-# Set ieee_2000sets file delimiter
+# Create output edges handler and file
+csv_edges_fh = open(output_data_path + "author_edges.csv", "w+")
+# Set output edges file delimiter
 csv_edges_delimiter = ","
 # Write CSV column title
 csv_edges_fh.write("Source" + csv_edges_delimiter + "Target\n")
-# Init variable to hold number of edges
+# Create variable to hold number of edges
 total_edges = 0
-
 # Step through each author start id
 for edge_start_id in graph_edges.keys():
     # Step through each author end id
@@ -95,7 +107,7 @@ for edge_start_id in graph_edges.keys():
         csv_edges_fh.write(str(edge_start_id) + csv_edges_delimiter + str(edge_end_id) + "\n")
         # Increment edge total
         total_edges += 1
-# Print ieee_2000sets
+# Print output edges
 print str(total_edges) + " author edges successfully written to file in CSV format."
-# Close ieee_2000sets handler
+# Close output edges handler
 csv_edges_fh.close()
