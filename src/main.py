@@ -1,21 +1,21 @@
-#Imports for various required modules
+# Imports for various required modules
 from csv import reader as csvreader
 from sys import argv as cmd_args
-from os import path,makedirs
+from os import path, makedirs
 
 __author__ = 'Ritwik Dutta'
 
-#Create input path var
+# Create input path var
 input_data_path = cmd_args[1]
-#Create input name var
+# Create input name var
 input_data_name = input_data_path.split("/")[1].split(".")[0]
-#Create output path var
+# Create output path var
 output_data_path = "output/" + input_data_name + "/"
-#Check if output directory exists
+# Check if output directory exists
 if not path.isdir(output_data_path):
-    #If not, create output path
+    # If not, create output path
     makedirs(output_data_path)
-#Create input data delimiter var
+# Create input data delimiter var
 input_data_delimiter = cmd_args[2]
 
 # Create array for holding raw header fields
@@ -50,21 +50,16 @@ for field in csv_author_fields:
             # If not, add to array
             names_separated.append(name)
             graph_node_ids[name] = len(names_separated)
-# Get total number of authors
 total_names = len(names_separated)
 
-# Create output handler and file
-csv_nodes_fh = open(output_data_path + input_data_name + "nodes.csv", "w+")
-# Set output nodes file delimiter
+# Write nodes to file
+csv_nodes_fp = output_data_path + input_data_name + "nodes.csv"
+csv_nodes_fh = open(csv_nodes_fp, "w+")
 csv_nodes_delimiter = ";"
-# Write CSV column title
 csv_nodes_fh.write("Label" + csv_nodes_delimiter + "Id\n")
-# Step through each author name
 for name in names_separated:
     csv_nodes_fh.write(name + csv_nodes_delimiter + str(graph_node_ids[name]) + "\n")
-# Print output nodes info
-print str(total_names) + " author names successfully written to file in CSV format."
-# Close output nodes handler
+print str(total_names) + " author names successfully written to " + csv_nodes_fp + " in CSV format."
 csv_nodes_fh.close()
 
 # Step through each author name
@@ -93,23 +88,16 @@ for field in csv_author_fields:
                     # Create edge
                     graph_edges[edge_start_id].append(edge_end_id)
 
-# Create output edges handler and file
-csv_edges_fh = open(output_data_path + input_data_name + "edges.csv", "w+")
-# Set output edges file delimiter
+
+csv_edges_fp = output_data_path + input_data_name + "edges.csv"
+csv_edges_fh = open(csv_edges_fp, "w+")
 csv_edges_delimiter = ","
-# Write CSV column title
 csv_edges_fh.write("Source" + csv_edges_delimiter + "Target\n")
-# Create variable to hold number of edges
 total_edges = 0
-# Step through each author start id
 for edge_start_id in graph_edges.keys():
-    # Step through each author end id
     for edge_end_id in graph_edges[edge_start_id]:
-        # Write edge in delimited format
         csv_edges_fh.write(str(edge_start_id) + csv_edges_delimiter + str(edge_end_id) + "\n")
-        # Increment edge total
         total_edges += 1
-# Print output edges
 print str(total_edges) + " author edges successfully written to file in CSV format."
 # Close output edges handler
 csv_edges_fh.close()
