@@ -2,7 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3aea5539-911e-4600-88b9-40af9eb46aa5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/output/Conferences/DesignAutomationCombined/DesignAutomationCombined.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/output/Conferences/DesignAutomationCombined/DesignAutomationCombined.gexf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/output/Conferences/DesignAutomationCombined/DesignAutomationCombinedlog.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/output/Conferences/DAC/DAC.gephi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/output/Conferences/DAC/DAC.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/output/Years/.gexf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/output/Years/log.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/1995/1995.gexf" afterPath="$PROJECT_DIR$/src/output/Years/1995/1995.gexf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/1995/1995log.txt" afterPath="$PROJECT_DIR$/src/output/Years/1995/1995log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/1996/1996.gexf" afterPath="$PROJECT_DIR$/src/output/Years/1996/1996.gexf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/1996/1996log.txt" afterPath="$PROJECT_DIR$/src/output/Years/1996/1996log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/1997/1997.gexf" afterPath="$PROJECT_DIR$/src/output/Years/1997/1997.gexf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/1997/1997log.txt" afterPath="$PROJECT_DIR$/src/output/Years/1997/1997log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/1998/1998.gexf" afterPath="$PROJECT_DIR$/src/output/Years/1998/1998.gexf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/1998/1998log.txt" afterPath="$PROJECT_DIR$/src/output/Years/1998/1998log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/1999/1999.gexf" afterPath="$PROJECT_DIR$/src/output/Years/1999/1999.gexf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/1999/1999log.txt" afterPath="$PROJECT_DIR$/src/output/Years/1999/1999log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/2000/2000.gexf" afterPath="$PROJECT_DIR$/src/output/Years/2000/2000.gexf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/2000/2000log.txt" afterPath="$PROJECT_DIR$/src/output/Years/2000/2000log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/2001/2001.gexf" afterPath="$PROJECT_DIR$/src/output/Years/2001/2001.gexf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/2001/2001log.txt" afterPath="$PROJECT_DIR$/src/output/Years/2001/2001log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/2002/2002.gexf" afterPath="$PROJECT_DIR$/src/output/Years/2002/2002.gexf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/2002/2002log.txt" afterPath="$PROJECT_DIR$/src/output/Years/2002/2002log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/2003/2003.gexf" afterPath="$PROJECT_DIR$/src/output/Years/2003/2003.gexf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/2003/2003log.txt" afterPath="$PROJECT_DIR$/src/output/Years/2003/2003log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/2004/2004.gexf" afterPath="$PROJECT_DIR$/src/output/Years/2004/2004.gexf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/2004/2004log.txt" afterPath="$PROJECT_DIR$/src/output/Years/2004/2004log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/2005/2005.gexf" afterPath="$PROJECT_DIR$/src/output/Years/2005/2005.gexf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/2005/2005log.txt" afterPath="$PROJECT_DIR$/src/output/Years/2005/2005log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/2006/2006.gexf" afterPath="$PROJECT_DIR$/src/output/Years/2006/2006.gexf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/2006/2006log.txt" afterPath="$PROJECT_DIR$/src/output/Years/2006/2006log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/2007/2007.gexf" afterPath="$PROJECT_DIR$/src/output/Years/2007/2007.gexf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/2007/2007log.txt" afterPath="$PROJECT_DIR$/src/output/Years/2007/2007log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/2008/2008.gexf" afterPath="$PROJECT_DIR$/src/output/Years/2008/2008.gexf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/2008/2008log.txt" afterPath="$PROJECT_DIR$/src/output/Years/2008/2008log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/2009/2009.gexf" afterPath="$PROJECT_DIR$/src/output/Years/2009/2009.gexf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/2009/2009log.txt" afterPath="$PROJECT_DIR$/src/output/Years/2009/2009log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/2010/2010.gexf" afterPath="$PROJECT_DIR$/src/output/Years/2010/2010.gexf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/2010/2010log.txt" afterPath="$PROJECT_DIR$/src/output/Years/2010/2010log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/2011/2011.gexf" afterPath="$PROJECT_DIR$/src/output/Years/2011/2011.gexf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/2011/2011log.txt" afterPath="$PROJECT_DIR$/src/output/Years/2011/2011log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/2012/2012.gexf" afterPath="$PROJECT_DIR$/src/output/Years/2012/2012.gexf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/2012/2012log.txt" afterPath="$PROJECT_DIR$/src/output/Years/2012/2012log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/2013/2013.gexf" afterPath="$PROJECT_DIR$/src/output/Years/2013/2013.gexf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/2013/2013log.txt" afterPath="$PROJECT_DIR$/src/output/Years/2013/2013log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/2014/2014.gexf" afterPath="$PROJECT_DIR$/src/output/Years/2014/2014.gexf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/2014/2014log.txt" afterPath="$PROJECT_DIR$/src/output/Years/2014/2014log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/2015/2015.gexf" afterPath="$PROJECT_DIR$/src/output/Years/2015/2015.gexf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Years/2015/2015log.txt" afterPath="$PROJECT_DIR$/src/output/Years/2015/2015log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Conferences/CASES/CASES.gexf" afterPath="$PROJECT_DIR$/src/output/Conferences/CASES/CASES.gexf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Conferences/CASES/CASESlog.txt" afterPath="$PROJECT_DIR$/src/output/Conferences/CASES/CASESlog.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Conferences/DAC/DAC.gexf" afterPath="$PROJECT_DIR$/src/output/Conferences/DAC/DAC.gexf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Conferences/DAC/DAClog.txt" afterPath="$PROJECT_DIR$/src/output/Conferences/DAC/DAClog.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Conferences/DATE/DATE.gexf" afterPath="$PROJECT_DIR$/src/output/Conferences/DATE/DATE.gexf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Conferences/DATE/DATElog.txt" afterPath="$PROJECT_DIR$/src/output/Conferences/DATE/DATElog.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Conferences/EMSOFT/EMSOFT.gexf" afterPath="$PROJECT_DIR$/src/output/Conferences/EMSOFT/EMSOFT.gexf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Conferences/EMSOFT/EMSOFTlog.txt" afterPath="$PROJECT_DIR$/src/output/Conferences/EMSOFT/EMSOFTlog.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Conferences/ICCAD/ICCAD.gexf" afterPath="$PROJECT_DIR$/src/output/Conferences/ICCAD/ICCAD.gexf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Conferences/ICCAD/ICCADlog.txt" afterPath="$PROJECT_DIR$/src/output/Conferences/ICCAD/ICCADlog.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Conferences/ISCA/ISCA.gexf" afterPath="$PROJECT_DIR$/src/output/Conferences/ISCA/ISCA.gexf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Conferences/ISCA/ISCAlog.txt" afterPath="$PROJECT_DIR$/src/output/Conferences/ISCA/ISCAlog.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Conferences/ISSCC/ISSCC.gexf" afterPath="$PROJECT_DIR$/src/output/Conferences/ISSCC/ISSCC.gexf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Conferences/ISSCC/ISSCClog.txt" afterPath="$PROJECT_DIR$/src/output/Conferences/ISSCC/ISSCClog.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/output/Conferences/MEMS/MEMS.gexf" afterPath="$PROJECT_DIR$/src/output/Conferences/MEMS/MEMS.gexf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/conferences.py" afterPath="$PROJECT_DIR$/src/conferences.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/graph.py" afterPath="$PROJECT_DIR$/src/graph.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/years.py" afterPath="$PROJECT_DIR$/src/years.py" />
     </list>
@@ -29,7 +94,7 @@
         <entry file="file://$PROJECT_DIR$/src/years.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="e#29#59#0" expanded="true" />
               </folding>
@@ -37,15 +102,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conferences.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="conferences.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/conferences.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.76537216">
-              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
               <folding>
                 <element signature="e#29#59#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DesignAutomationCombined.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/output/Conferences/DesignAutomationCombined/DesignAutomationCombined.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -53,7 +125,7 @@
         <entry file="file://$PROJECT_DIR$/src/graph.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+              <caret line="30" column="59" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
               <folding>
                 <element signature="e#68#117#0" expanded="true" />
               </folding>
@@ -78,10 +150,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/main.py" />
         <option value="$PROJECT_DIR$/src/test.py" />
-        <option value="$PROJECT_DIR$/src/graph.py" />
         <option value="$PROJECT_DIR$/src/input/Conferences/yearcopy.py" />
         <option value="$PROJECT_DIR$/src/year.py" />
         <option value="$PROJECT_DIR$/src/conferences.py" />
+        <option value="$PROJECT_DIR$/src/graph.py" />
         <option value="$PROJECT_DIR$/src/years.py" />
       </list>
     </option>
@@ -91,7 +163,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="25" />
-    <option name="width" value="1920" />
+    <option name="width" value="1912" />
     <option name="height" value="1030" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -117,6 +189,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -171,11 +245,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="input" />
+              <option name="myItemId" value="output" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Years" />
+              <option name="myItemId" value="Conferences" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -193,14 +267,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="input" />
+              <option name="myItemId" value="output" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conferences" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DesignAutomationCombined" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -220,7 +300,7 @@
       <recent name="$PROJECT_DIR$/src/xploreall" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.conferences">
+  <component name="RunManager" selected="Python.year">
     <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -419,8 +499,8 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.conferences" />
-        <item index="1" class="java.lang.String" itemvalue="Python.year" />
+        <item index="0" class="java.lang.String" itemvalue="Python.year" />
+        <item index="1" class="java.lang.String" itemvalue="Python.conferences" />
         <item index="2" class="java.lang.String" itemvalue="Python.main" />
         <item index="3" class="java.lang.String" itemvalue="Python.yearcopy" />
       </list>
@@ -569,32 +649,38 @@
       <option name="project" value="LOCAL" />
       <updated>1435175660662</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Adding formatting and exception code for non-directory files in input directories.">
+      <created>1435176199372</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1435176199372</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="1030" extended-state="4" />
+    <frame x="0" y="25" width="1912" height="1030" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1261731" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12513089" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3072805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3072805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -629,7 +715,8 @@
     <MESSAGE value="Adding stuff." />
     <MESSAGE value="Commenting and cleaning conference and year autogenerator." />
     <MESSAGE value="Adding year sorting." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding year sorting." />
+    <MESSAGE value="Adding formatting and exception code for non-directory files in input directories." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding formatting and exception code for non-directory files in input directories." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -638,6 +725,36 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/years.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding>
+            <element signature="e#29#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/conferences.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#29#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding>
+            <element signature="e#68#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/graph.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -844,34 +961,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/years.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#29#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/graph.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <caret line="30" column="59" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
           <folding>
             <element signature="e#68#117#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/years.py">
+    <entry file="file://$PROJECT_DIR$/src/conferences.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
           <folding>
             <element signature="e#29#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/conferences.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.76537216">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding>
-            <element signature="e#29#59#0" expanded="true" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/src/output/Conferences/DesignAutomationCombined/DesignAutomationCombined.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>

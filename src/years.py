@@ -24,7 +24,7 @@ for year in conference_years:
         time_start = time()
 
         # Run graph generation on year directory
-        system("python graph.py " + year_path + ' output/Years/ ";" ' + year)
+        system('python graph.py ";" ' + year + ' output/Years/ ' + year_path)
 
         # Finish timing individual run
         time_end = time()

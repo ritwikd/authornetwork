@@ -1,1 +1,1 @@
-916 author edges successfully written to output/Conferences/CASES/CASES.gexf in GEXF format
+676 author edges successfully written to output/Conferences/CASES/CASES.gexf in GEXF format

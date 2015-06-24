@@ -13,17 +13,24 @@ author_csv = []  # Author fields
 graph = nx.DiGraph()
 
 # CLI args
-input_path = cli_args[1]
-input_dlm = cli_args[3]
-input_name = input_path.split("/")[3]
-
-# Name argument override
-if len(cli_args) == 5:
-    input_name = cli_args[4]
+input_dlm = cli_args[1]
+input_name = cli_args[2]
+output_path = cli_args[3] + input_name + "/"
+input_paths = cli_args[4:]
+input_files = []
 
 # Get input files and output path
-input_files = listdir(input_path)
-output_path = cli_args[2] + input_name + "/"
+for input_dir in input_paths:
+
+    # Get sorted subdirectories of input directories
+    input_subdir = sorted(listdir(input_dir))[1:]
+
+    # Iterate files in subdirectories
+    for input_file in input_subdir:
+
+        # Put conference and filename into input file array
+        input_files.append([input_dir.split('/')[len(input_dir.split('/'))-2], input_dir + input_file])
+
 
 # Create output directory if needed
 if not path.isdir(output_path):
@@ -31,9 +38,9 @@ if not path.isdir(output_path):
 
 # Get all files in input dir
 for filename in input_files:
-
     # Read each file
-    csv_file = open(input_path + filename, "r")
+    csv_file = open(filename[1], "r")
+
     with csv_file as current_file:
 
         # Parse file into records
@@ -44,6 +51,7 @@ for filename in input_files:
 
             # Save metadata
             metadata.append(record)
+
             field = record[1].split(input_dlm)
             # Parse names
             for i in range(len(field)):
@@ -51,7 +59,16 @@ for filename in input_files:
                 # Strip whitespace
                 field[i] = field[i].replace(' ', '')
 
-                graph.add_node(field[i], id=graph.number_of_nodes()+1)
+                # Check for author conflict
+                if graph.has_node(field[i]):
+
+                    # Mixed conference field
+                    graph.add_node(field[i], conference="Mixed")
+
+                else:
+
+                    # Conference field from parsed conference
+                    graph.add_node(field[i], id=graph.number_of_nodes()+1, conference=filename[0])
 
             # Save field
             author_csv.append(field)

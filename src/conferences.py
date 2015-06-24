@@ -26,13 +26,13 @@ for category in conference_categories:
         for name in conference_names:
 
             # Get full path to conference
-            conference_name_path = conference_category_path + name + '/'
+            conference_path = conference_category_path + name + '/'
 
             # Start timing individual run
             time_start = time()
 
             # Run graph generation on conference directory
-            system("python graph.py " + conference_name_path + ' output/Conferences/ ";"')
+            system('python graph.py ";" ' + name + ' output/Conferences/ ' + conference_path)
 
             # Finish timing individual run
             time_end = time()
