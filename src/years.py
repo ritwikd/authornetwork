@@ -7,7 +7,7 @@ from time import time
 years_global_path = 'input/Years/'
 
 # Get names of all years in input directory
-conference_years = listdir(years_global_path)
+conference_years = sorted(listdir(years_global_path))
 
 # Get start time
 total_start_time = time()
