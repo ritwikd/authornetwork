@@ -17,30 +17,38 @@ for category in conference_categories:
     # Get full path to category
     conference_category_path = conferences_global_path + category + '/'
 
-    # Get list of conferences in category
-    conference_names = listdir(conference_category_path)
+    # Enable non directory data to be in path
+    try:
 
-    for name in conference_names:
+        # Get list of conferences in category
+        conference_names = listdir(conference_category_path)
 
-        # Get full path to conference
-        conference_name_path = conference_category_path + name + '/'
+        for name in conference_names:
 
-        # Start timing individual run
-        time_start = time()
+            # Get full path to conference
+            conference_name_path = conference_category_path + name + '/'
 
-        # Run graph generation on conference directory
-        system("python graph.py " + conference_name_path + ' output/Conferences/ ";"')
+            # Start timing individual run
+            time_start = time()
 
-        # Finish timing individual run
-        time_end = time()
-        time_elapsed = time_end - time_start
+            # Run graph generation on conference directory
+            system("python graph.py " + conference_name_path + ' output/Conferences/ ";"')
 
-        # Print output message
-        print "Graph of " + name + "\t generated in " + str(time_elapsed) + " seconds."
+            # Finish timing individual run
+            time_end = time()
+            time_elapsed = time_end - time_start
+
+            # Print output message
+            print "Graph of " + name + "\t generated in " + str(round(time_elapsed, 3)) + " seconds."
+
+    # Catch cases of non-directory items
+    except OSError:
+        pass
+
 
 # Get total time elapse
 total_end_time = time()
 total_elapsed_time = total_end_time - total_start_time
 
 # Print final output message
-print "All conference graphs generated in " + str(total_elapsed_time) + " seconds."
+print "All conference graphs generated in " + str(round(total_elapsed_time, 3)) + " seconds."

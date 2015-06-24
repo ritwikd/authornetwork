@@ -14,21 +14,24 @@ total_start_time = time()
 
 for year in conference_years:
 
-    # Get full path to year
-    year_path = years_global_path + year + '/'
+    # Make sure non-directory paths are not run
+    if '.' not in year:
 
-    # Start timing individual run
-    time_start = time()
+        # Get full path to year
+        year_path = years_global_path + year + '/'
 
-    # Run graph generation on year directory
-    system("python graph.py " + year_path + ' output/Years/ ";" ' + year)
+        # Start timing individual run
+        time_start = time()
 
-    # Finish timing individual run
-    time_end = time()
-    time_elapsed = time_end - time_start
+        # Run graph generation on year directory
+        system("python graph.py " + year_path + ' output/Years/ ";" ' + year)
 
-    # Print output message
-    print "Graph of " + year + "\t generated in " + str(time_elapsed) + " seconds."
+        # Finish timing individual run
+        time_end = time()
+        time_elapsed = time_end - time_start
+
+        # Print output message
+        print "Graph of " + year + " generated in " + str(round(time_elapsed, 3)) + " seconds."
 
 # Get total time elapsed
 total_end_time = time()
