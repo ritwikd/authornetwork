@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3aea5539-911e-4600-88b9-40af9eb46aa5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generator/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generator/main/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generator/conferences.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generator/main/graph.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generator/years.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generate.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="authornetwork.iws" />
@@ -40,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="years.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="years.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/generator/years.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16757345">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -60,10 +56,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="generate.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="generate.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/generate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.18498367">
               <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
               <folding />
             </state>
@@ -606,7 +602,13 @@
       <option name="project" value="LOCAL" />
       <updated>1435770759003</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Stuff.">
+      <created>1435776259791</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1435776259791</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -669,7 +671,8 @@
     <MESSAGE value="Adding formatting and exception code for non-directory files in input directories." />
     <MESSAGE value="Misc stuff." />
     <MESSAGE value="A lot of stuff." />
-    <option name="LAST_COMMIT_MESSAGE" value="A lot of stuff." />
+    <MESSAGE value="Stuff." />
+    <option name="LAST_COMMIT_MESSAGE" value="Stuff." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -886,18 +889,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/generate.py">
+    <entry file="file://$PROJECT_DIR$/src/generator/years.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/generator/years.py">
+    <entry file="file://$PROJECT_DIR$/src/generate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16757345">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.18498367">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
           <folding />
         </state>
       </provider>
