@@ -1,1 +1,0 @@
-28714 author edges successfully written to output/Years/2006/2006.gexf in GEXF format
