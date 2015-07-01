@@ -1,1 +1,0 @@
-40744 author edges successfully written to output/Conferences/DATE/DATE.gexf in GEXF format
