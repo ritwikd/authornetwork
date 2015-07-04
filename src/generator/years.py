@@ -34,7 +34,7 @@ def run(gen_path):
 
             # Modify query for Windows systems
             if 'Windows' in platform():
-                gen_cmd = 'C:\Python27\python.exe ' + gen_path + ' ";" ' + year + ' output/Years/ ' + year_path
+                gen_cmd = 'C:\Python27\python.exe ' + gen_path + ' ";" ' + year + ' output/Years/ True ' + year_path
 
             # Run graph generation on year directory
             system(gen_cmd)

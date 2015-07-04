@@ -9,6 +9,8 @@ import networkx as nx  # Graph creation and GEXP creation
 # Global variables
 metadata = []  # CSV metadata
 author_csv = []  # Author fields
+# For edges between
+inst_dict = {}
 # Create graph object
 graph = nx.DiGraph()
 
@@ -16,7 +18,8 @@ graph = nx.DiGraph()
 input_dlm = cli_args[1]
 input_name = cli_args[2]
 output_path = cli_args[3] + input_name + "/"
-input_paths = cli_args[4:]
+input_paths = cli_args[5:]
+multi_conf = cli_args[4]
 input_files = []
 
 # Get input files and output path
@@ -30,7 +33,6 @@ for input_dir in input_paths:
 
         # Put conference and filename into input file array
         input_files.append([input_dir.split('/')[len(input_dir.split('/'))-2], input_dir + input_file])
-
 
 # Create output directory if needed
 if not path.isdir(output_path):
@@ -49,52 +51,153 @@ for filename in input_files:
         # Save metadata and create author nodes
         for record in records:
 
-            # Save metadata
-            metadata.append(record)
+            # Make sure record is a valid publication record
+            if len(record) > 2:
 
-            field = record[1].split(input_dlm)
-            # Parse names
-            for i in range(len(field)):
+                # Save metadata
+                metadata.append(record)
+                field = record[1].split(input_dlm)
 
-                # Strip whitespace
-                field[i] = field[i].replace(' ', '')
+                # Parse names
+                for i in range(len(field)):
 
-                # Check for author conflict
-                if graph.has_node(field[i]):
+                    # Strip whitespace
+                    field[i] = field[i].replace(' ', '')
 
-                    # Mixed conference field
-                    graph.add_node(field[i], conference="Mixed")
+                    # Check if multiple or single conference
+                    if multi_conf == "True":
 
-                else:
+                        # Check for author conflict
+                        if graph.has_node(field[i]):
 
-                    # Conference field from parsed conference
-                    graph.add_node(field[i], id=graph.number_of_nodes()+1, conference=filename[0])
+                            # Mixed conference field
+                            graph.add_node(field[i], conference="Mixed", institution=record[2], importance=1)
 
-            # Save field
-            author_csv.append(field)
+                    else:
+
+                        # Conference field from parsed conference
+                        graph.add_node(field[i], id=graph.number_of_nodes()+1, conference=filename[0], institution=record[2], importance=1)
+
+                # Save field
+                author_csv.append(field)
 
 # Remove fluff from fields
 author_csv = author_csv[2:]
+metadata = metadata[2:]
 
 # Create and count edges between co-authors
 for field in author_csv:
 
     # Check for multi author papers
     if len(field) > 1:
+
+        # Step through all possible edge starts
         for edge_start_name in field:
 
-            # Get edge start and possible edge endpoints
-            edge_start_name = edge_start_name.replace(' ', '')
+            # Get all possible edge endpoints
             name_index = field.index(edge_start_name)
             other_names = field[:name_index] + field[name_index + 1:]
 
-            # Check all possible endpoints
+            # Create all possible edges
             for edge_end_name in other_names:
-                graph.add_edge(edge_start_name, edge_end_name)
 
-# Write gexf file for graph
+                # Check for existing edges
+                if graph.has_edge(edge_start_name, edge_end_name):
+
+                     # Get existing edge info
+                    edge_info = graph.get_edge_data(edge_start_name, edge_end_name)
+
+                    # Get new weight
+                    new_weight = edge_info['weight'] + 1
+                    if new_weight > 2:
+                        new_weight = 2
+
+                    #Increment edge size
+                    graph.add_edge(edge_start_name, edge_end_name, weight=new_weight)
+
+                # Add edge
+                graph.add_edge(edge_start_name, edge_end_name, weight=1)
+
+# Create institution connection dictionary
+for row in metadata:
+
+    # Check for right row
+    if len(row) > 2:
+
+        # Get institution from row
+        institution = row[2]
+
+        # Create arr for institution
+        inst_dict[institution] = []
+
+# Add authors to dictionary
+for row in metadata:
+
+    # Check for right row
+    if len(row) > 2:
+
+        # Get institution from row
+        institution = row[2]
+        # Get list of authors
+        authors = row[1].split(input_dlm)
+        # Step through authors
+        for author in authors:
+            # Add author to dictionary under institution
+            inst_dict[institution].append(author)
+
+# Create and count edges between people from the same institution
+for institution in inst_dict.keys():
+
+    # Get all authors of institution
+    authors = inst_dict[institution]
+    # Step through all possible edge starts
+    for edge_start_name in inst_dict[institution]:
+
+        # Get all possible edge endpoints and strip name
+        name_index = authors.index(edge_start_name)
+        edge_start_name = edge_start_name.replace(' ', '')
+        other_names = authors[:name_index] + authors[name_index + 1:]
+
+        # Create all possible edges
+        for edge_end_name in other_names:
+
+            edge_end_name = edge_end_name.replace(' ', '')
+
+            # Check for existing edges
+            if graph.has_edge(edge_start_name, edge_end_name):
+
+                # Get existing edge info
+                edge_info = graph.get_edge_data(edge_start_name, edge_end_name)
+
+                # Get new weight
+                new_weight = edge_info['weight'] + 1
+                if new_weight > 2:
+                    new_weight = 2
+
+                #Increment edge size
+                graph.add_edge(edge_start_name, edge_end_name, weight=new_weight)
+
+                # Change nodes to higher weight
+                graph.add_node(edge_start_name, importance=3)
+                graph.add_node(edge_end_name, importance=3)
+
+            else:
+
+                # Add institutional connection
+                graph.add_edge(edge_start_name, edge_end_name, weight=1)
+
+# Create GEXF output path
 edges_gexf_path = output_path + input_name + ".gexf"
-nx.write_gexf(graph, edges_gexf_path)
+
+try:
+
+    # Write gexf file for graph
+    nx.write_gexf(graph, edges_gexf_path)
+
+except IOError:
+
+    # Output for errors with file input and output
+    print edges_gexf_path + " cannot be written."
 
 # Write log statements to file
 log_path = output_path + input_name + "log.txt"

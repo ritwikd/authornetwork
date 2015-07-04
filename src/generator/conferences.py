@@ -46,12 +46,15 @@ def run(gen_path):
     # Go through all conference paths
     for i in tqdm(range(len(conference_paths))):
 
+        # Generate conference name
+        name =  conference_paths[i].split('/')[len(conference_paths[i].split('/'))-2]
+
         # Create graph generation command
-        gen_cmd = 'python ' + gen_path + ' ";" ' + name + ' output/Conferences/ ' + conference_paths[i]
+        gen_cmd = 'python ' + gen_path + ' ";" ' + name + ' output/Conferences/ False ' + conference_paths[i]
 
         # Modify query for Windows systems
         if 'Windows' in platform():
-            gen_cmd = 'C:\Python27\python.exe ' + gen_path + ' ";" ' + name + ' output/Conferences/ ' + conference_paths[i]
+            gen_cmd = 'C:\Python27\python.exe ' + gen_path + ' ";" ' + name + ' output/Conferences/ False ' + conference_paths[i]
 
         # Run graph generation on year directory
         system(gen_cmd)
