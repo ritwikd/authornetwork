@@ -9,6 +9,10 @@ import networkx as nx  # Graph creation and GEXP creation
 # Global variables
 metadata = []  # CSV metadata
 author_csv = []  # Author fields
+
+#
+auth_list = []
+rev_list = []
 # For edges between
 inst_dict = {}
 pap_dict = {}
@@ -18,7 +22,7 @@ graph = nx.DiGraph()
 # CLI args
 input_dlm = cli_args[1]
 input_name = cli_args[2]
-output_path = cli_args[3] + input_name + "\\"
+output_path = cli_args[3] + input_name
 input_paths = cli_args[5:]
 multi_conf = cli_args[4]
 input_files = []
@@ -61,13 +65,16 @@ for filename in input_files:
 
                 # Parse names
                 for i in range(len(field)):
-                    finalout+=field[i]
                     # Strip whitespace
                     field[i] = field[i].replace(' ', '')
                     # Set author type to either author or reviewer
                     type = "author"
                     if record[0] == "Reviewer":
                         type = "reviewer"
+
+                    else:
+                        auth_list.append(field[i])
+
 
                     # Check if multiple or single conference
                     if multi_conf == "True":
