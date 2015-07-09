@@ -10,7 +10,7 @@ import networkx as nx  # Graph creation and GEXP creation
 metadata = []  # CSV metadata
 author_csv = []  # Author fields
 
-#
+# Name lists
 auth_list = []
 rev_list = []
 # For edges between
@@ -22,7 +22,7 @@ graph = nx.DiGraph()
 # CLI args
 input_dlm = cli_args[1]
 input_name = cli_args[2]
-output_path = cli_args[3] + input_name
+output_path = cli_args[3] + input_name + "//"
 input_paths = cli_args[5:]
 multi_conf = cli_args[4]
 input_files = []
@@ -31,7 +31,7 @@ input_files = []
 for input_dir in input_paths:
 
     # Get sorted subdirectories of input directories
-    input_subdir = sorted(listdir(input_dir))[1:]
+    input_subdir = sorted(listdir(input_dir))
 
     # Iterate files in subdirectories
     for input_file in input_subdir:
@@ -65,14 +65,25 @@ for filename in input_files:
 
                 # Parse names
                 for i in range(len(field)):
+
                     # Strip whitespace
                     field[i] = field[i].replace(' ', '')
-                    # Set author type to either author or reviewer
-                    type = "author"
+
+                    # Set importance and type
+                    name_type = "author"
+                    importance = 1
+
+                    # Check for other type
                     if record[0] == "Reviewer":
-                        type = "reviewer"
+
+                        # Add to reviewer list
+                        name_type = "reviewer"
+                        importance = 3
+                        rev_list.append(field[i])
 
                     else:
+
+                        # Add to author list
                         auth_list.append(field[i])
 
 
@@ -81,12 +92,24 @@ for filename in input_files:
 
                         # Check for author conflict
                         if graph.has_node(field[i]):
-                            graph.add_node(field[i], id=graph.number_of_nodes()+1, conference="Mixed", institution=record[2], importance=1, type=type)
+                            graph.add_node(field[i], id=graph.number_of_nodes()+1, conference="mixed", institution=record[2], importance=importance, type=name_type)
 
                     else:
 
                         # Conference field from parsed conference
-                        graph.add_node(field[i], id=graph.number_of_nodes()+1, conference=filename[0], institution=record[2], importance=1, type=type)
+                        graph.add_node(field[i], id=graph.number_of_nodes()+1, conference=filename[0], institution=record[2], importance=importance, type=name_type)
+
+# Step through authors
+for author in auth_list:
+
+    # Step through reviewers
+    for reviewer in rev_list:
+
+        # Check for collisions
+        if reviewer == author:
+
+            # Flag node with type tag
+            graph.add_node(author, type="both", importance=4)
 
 # Remove fluff from fields
 metadata = metadata[2:]
