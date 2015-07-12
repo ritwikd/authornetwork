@@ -2,6 +2,7 @@ __author__ = 'Ritwik Dutta'
 
 # Imports for various required modules
 from csv import reader as csv_parse  # CSV parser
+from shlex import split # Text splitter
 from sys import argv as cli_args  # CLI args
 from os import path, makedirs, listdir  # Filesystem control
 import networkx as nx  # Graph creation and GEXP creation
@@ -10,12 +11,14 @@ import networkx as nx  # Graph creation and GEXP creation
 metadata = []  # CSV metadata
 author_csv = []  # Author fields
 
-# Name lists
-auth_list = []
-rev_list = []
+# Tag vars
+tag_list = {}
+tag_imp = { 'author' : 1, 'reviewer': 2, 'tpc' : 3}
+
 # For edges between
 inst_dict = {}
-pap_dict = {}
+paper_dict = {}
+
 # Create graph object
 graph = nx.DiGraph()
 
@@ -64,56 +67,73 @@ for filename in input_files:
                 field = record[1].split(input_dlm)
 
                 # Parse names
-                for i in range(len(field)):
+                for name in field:
 
                     # Strip whitespace
-                    field[i] = field[i].replace(' ', '')
+                    name = name.replace(' ', '')
 
-                    # Set importance and type
-                    name_type = "author"
-                    importance = 1
+                    # Set importance and tag
+                    name_tag = "author"
 
-                    # Check for other type
-                    if record[0] == "Reviewer":
+                    titlewords = split(record[0].strip().replace("'", '').replace('"',''))
+
+
+                    # Check for other tag
+                    if len(titlewords) == 1:
 
                         # Add to reviewer list
-                        name_type = "reviewer"
+                        name_tag = titlewords[0].lower()
                         importance = 3
-                        rev_list.append(field[i])
 
-                    else:
+                    # Add to corresponding part of dict
+                    if name_tag not in tag_list.keys():
+                        tag_list[name_tag] = []
 
-                        # Add to author list
-                        auth_list.append(field[i])
+                    tag_list[name_tag].append(name)
+                    importance = tag_imp[name_tag]
 
 
                     # Check if multiple or single conference
                     if multi_conf == "True":
 
                         # Check for author conflict
-                        if graph.has_node(field[i]):
-                            graph.add_node(field[i], id=graph.number_of_nodes()+1, conference="mixed", institution=record[2], importance=importance, type=name_type)
+                        if graph.has_node(name):
+                            graph.add_node(name, id=graph.number_of_nodes()+1, conference="mixed", institution=record[2], importance=importance, tag=name_tag)
 
                     else:
 
                         # Conference field from parsed conference
-                        graph.add_node(field[i], id=graph.number_of_nodes()+1, conference=filename[0], institution=record[2], importance=importance, type=name_type)
+                        graph.add_node(name, id=graph.number_of_nodes()+1, conference=filename[0], institution=record[2], importance=importance, tag=name_tag)
 
-# Step through authors
-for author in auth_list:
+# Create array for raw people
+people = []
 
-    # Step through reviewers
-    for reviewer in rev_list:
+# Populate array with all from sublists
+for key in tag_list.keys():
+    people += tag_list[key]
 
-        # Check for collisions
-        if reviewer == author:
+# Step through people
+for person in people:
 
-            # Flag node with type tag
-            graph.add_node(author, type="both", importance=4)
+    # Default variables
+    tag = ""
+    importance = 0
+
+    # Step through all keys
+    for key in tag_list.keys():
+
+        # Check for person in sublist
+        if person in tag_list[key]:
+
+            # Add new tag to author properties
+            tag +=key + "_"
+            importance +=tag_imp[key]
+
+    # Set corresponding data in node
+    graph.add_node(person, tag=tag, importance=importance)
 
 # Remove fluff from fields
 metadata = metadata[2:]
-
 
 # Add authors to dictionary
 for row in metadata:
@@ -123,24 +143,28 @@ for row in metadata:
 
         # Get institution from row
         paper = row[0]
+
         # Get list of authors
         authors = row[1].split(input_dlm)
+
         # Step through authors
         for author in authors:
 
             # Create institution arrays when necessary
-            if paper not in pap_dict.keys():
-                pap_dict[paper] = []
+            if paper not in paper_dict.keys():
+                paper_dict[paper] = []
 
             # Add author to dictionary under institution
-            pap_dict[paper].append(author)
+            paper_dict[paper].append(author)
 
 # Create and count edges between people from the same institution
-for paper in pap_dict.keys():
+for paper in paper_dict.keys():
+
     # Get all authors of institution
-    authors = pap_dict[paper]
+    authors = paper_dict[paper]
+
     # Step through all possible edge starts
-    for edge_start_name in pap_dict[paper]:
+    for edge_start_name in paper_dict[paper]:
 
         # Get all possible edge endpoints and strip name
         name_index = authors.index(edge_start_name)
@@ -153,14 +177,10 @@ for paper in pap_dict.keys():
             edge_end_name = edge_end_name.replace(' ', '')
 
             # Check for existing edges
-            if not graph.has_edge(edge_start_name, edge_end_name) and "Reviewer" not in paper:
+            if not graph.has_edge(edge_start_name, edge_end_name) and paper.lower().strip() not in tag_imp.keys():
 
                 # Add co-author connection
-                graph.add_edge(edge_start_name, edge_end_name, weight=1)
-
-
-
-
+                graph.add_edge(edge_start_name, edge_end_name, weight=1, tag="paper")
 
 # Add authors to dictionary
 for row in metadata:
@@ -185,8 +205,12 @@ for row in metadata:
 # Create and count edges between people from the same institution
 for institution in inst_dict.keys():
 
+    if len(institution) < 3:
+        print institution
+
     # Get all authors of institution
     authors = inst_dict[institution]
+
     # Step through all possible edge starts
     for edge_start_name in inst_dict[institution]:
 
@@ -203,8 +227,16 @@ for institution in inst_dict.keys():
             # Check for existing edges
             if not graph.has_edge(edge_start_name, edge_end_name):
 
+                # Set edge tag
+                tag = "institutional"
+
+                # Check and set social tag tag
+                if len(institution) < 1:
+                    tag = "social"
+
                 # Add institutional connection
-                graph.add_edge(edge_start_name, edge_end_name, weight=1)
+                graph.add_edge(edge_start_name, edge_end_name, weight=1, tag=tag)
+
 
 
 

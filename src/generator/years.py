@@ -24,7 +24,7 @@ def run(gen_path):
         year = conference_years[i]
 
         # Make sure non-directory paths are not run
-        if '.' not in year:
+        if '.' not in year: 
 
             # Get full path to year
             year_path = years_global_path + year + '/'
