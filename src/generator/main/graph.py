@@ -88,9 +88,11 @@ for filename in input_files:
                     # Add to corresponding part of dict
                     if name_tag not in tag_list.keys():
                         tag_list[name_tag] = []
-
                     tag_list[name_tag].append(name)
-                    importance = tag_imp[name_tag]
+
+                    # Get importance from dict 
+                    if name_tag in tag_imp.keys():
+                        importance = tag_imp[name_tag]
 
 
                     # Check if multiple or single conference
@@ -127,7 +129,8 @@ for person in people:
 
             # Add new tag to author properties
             tag +=key + "_"
-            importance +=tag_imp[key]
+            if key in tag_imp.keys():
+                importance +=tag_imp[key]
 
     # Set corresponding data in node
     graph.add_node(person, tag=tag, importance=importance)
