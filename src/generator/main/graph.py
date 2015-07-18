@@ -183,7 +183,7 @@ for paper in paper_dict.keys():
             if not graph.has_edge(edge_start_name, edge_end_name) and paper.lower().strip() not in tag_imp.keys():
 
                 # Add co-author connection
-                graph.add_edge(edge_start_name, edge_end_name, weight=1, tag="paper")
+                graph.add_edge(edge_start_name, edge_end_name, weight=1, level="paper")
 
 # Add authors to dictionary
 for row in metadata:
@@ -238,7 +238,7 @@ for institution in inst_dict.keys():
                     tag = "social"
 
                 # Add institutional connection
-                graph.add_edge(edge_start_name, edge_end_name, weight=1, tag=tag)
+                graph.add_edge(edge_start_name, edge_end_name, weight=1, level=tag)
 
 
 
