@@ -1,45 +1,27 @@
 from java.awt import Color
 
-# Node dicts
-colors_nodes = {}
 
-colors_nodes['tpc_'] = Color(0xFF4848)
-colors_nodes['reviewer_'] = Color(0x26BA6C)
-colors_nodes['author_'] = Color(0x3399FF)
+g.filter(tag == 'tpc_').nodes.color = Color(0xFF4848)
+g.filter(tag == 'reviewer_').nodes.color = Color(0x26BA6C)
+g.filter(tag == 'author_').nodes.color = Color(0x3399FF)
 
-colors_nodes['tpc_author_'] = Color(0x7238DB)
-colors_nodes['tpc_reviewer_'] = Color(0x624E2F)
-colors_nodes['tpc_reviewer_author_'] = Color(0xFFFFFF)
-colors_nodes['reviewer_author_'] = Color(0x39B1CB)
+g.filter(tag == 'tpc_author_').nodes.color = Color(0x7238DB)
+g.filter(tag == 'tpc_reviewer_').nodes.color = Color(0x624E2F)
+g.filter(tag == 'tpc_reviewer_author_').nodes.color = Color(0xFFFFFF)
+g.filter(tag == 'reviewer_author_').nodes.color = Color(0x39B1CB)
 
-size  = {}
+g.filter(tag == 'tpc_').nodes.size = 25
+g.filter(tag == 'reviewer_').nodes.size = 20
+g.filter(tag == 'author_').nodes.size = 15
 
-size['tpc_'] = 25
-size['reviewer_'] = 20
-size['author_'] = 15
+g.filter(tag == 'tpc_reviewer_author_').nodes.size = 60
+g.filter(tag == 'tpc_reviewer_').nodes.size = 45
+g.filter(tag == 'tpc_author_').nodes.size = 40
+g.filter(tag == 'reviewer_author_').nodes.size = 35
 
-size['tpc_reviewer_author_'] = 60
-size['tpc_reviewer_'] = 45
-size['tpc_author_'] = 40
-size['reviewer_author_'] = 35
+g.filter(level == 'institutional').edges.color = Color(0x13F066)
+g.filter(level == 'paper').edges.color = Color(0x2163C7)
+g.filter(level == 'social').edges.color = Color(0xFFFFFF)
 
-node_keys = colors_nodes.keys()
-for key in node_keys:
-	g.filter(tag == key).nodes.color = colors_nodes[key]
-	g.filter(tag == key).nodes.size = size[key]
-	g.filter(level == key)
-
-
-# Edge dicts
-colors_edges = {}
-
-colors_edges['institutional'] = Color(0x13F066)
-colors_edges['paper'] = Color(0x2163C7)
-colors_edges['social'] = Color(0xFFFFFF)
-
-edge_keys = colors_edges.keys()
-for key in edge_keys:
-	print key
-	g.filter(level == key).edges.color = colors_edges[key]
 
 run_layout(FruchtermanReingold, 5000)
