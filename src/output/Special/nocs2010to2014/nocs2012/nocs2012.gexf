@@ -1,0 +1,3610 @@
+<gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="edge" mode="static">
+      <attribute id="4" title="tag" type="string" />
+    </attributes>
+    <attributes class="node" mode="static">
+      <attribute id="0" title="conference" type="string" />
+      <attribute id="1" title="importance" type="integer" />
+      <attribute id="2" title="tag" type="string" />
+      <attribute id="3" title="institution" type="string" />
+    </attributes>
+    <nodes>
+      <node id="107" label="">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="" />
+        </attvalues>
+      </node>
+      <node id="84" label="Kurian,G.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. Eng. &amp; Comput. Sci., Massachusetts Inst. of Technol., Cambridge, MA, USA" />
+        </attvalues>
+      </node>
+      <node id="19" label="Prieto,P.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. de Electron. y Comput., Univ. of Cantabria, Santander, Spain" />
+        </attvalues>
+      </node>
+      <node id="14" label="Ramini,L.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Eng. Dept., Univ. of Ferrara, Ferrara, Italy" />
+        </attvalues>
+      </node>
+      <node id="15" label="Bertozzi,D.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Eng. Dept., Univ. of Ferrara, Ferrara, Italy" />
+        </attvalues>
+      </node>
+      <node id="91" label="Flich,J.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Univ. Politec. de Valencia, Valencia, Spain" />
+        </attvalues>
+      </node>
+      <node id="98" label="McDaid,L.J.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Intell. Syst. Res. Centre, Univ. of Ulster, Derry, UK" />
+        </attvalues>
+      </node>
+      <node id="27" label="Fallin,C.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Carnegie Mellon Univ., Pittsburgh, PA, USA" />
+        </attvalues>
+      </node>
+      <node id="9" label="Vaddina,K.R.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Inf. Technol., Univ. of Turku, Turku, Finland" />
+        </attvalues>
+      </node>
+      <node id="45" label="Schoeberl,M.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Inf. &amp; Math. Modeling, Tech. Univ. of Denmark, Lyngby, Denmark" />
+        </attvalues>
+      </node>
+      <node id="49" label="Kasapaki,E.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Inf. &amp; Math. Modeling, Tech. Univ. of Denmark, Lyngby, Denmark" />
+        </attvalues>
+      </node>
+      <node id="1" label="Authors">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Author Affiliations" />
+        </attvalues>
+      </node>
+      <node id="100" label="Cawley,S.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Intell. Syst. Res. Centre, Univ. of Ulster, Derry, UK" />
+        </attvalues>
+      </node>
+      <node id="42" label="Kulkarni,N.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Comput. Sci. &amp; Eng., Texas A&amp;M Univ., College Station, TX, USA" />
+        </attvalues>
+      </node>
+      <node id="109" label="Morris,R.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Electr. Eng. &amp; Comput. Sci, Ohio Univ., Athens, OH, USA" />
+        </attvalues>
+      </node>
+      <node id="18" label="Abad,P.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. de Electron. y Comput., Univ. of Cantabria, Santander, Spain" />
+        </attvalues>
+      </node>
+      <node id="44" label="EunJungKim">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Comput. Sci. &amp; Eng., Texas A&amp;M Univ., College Station, TX, USA" />
+        </attvalues>
+      </node>
+      <node id="8" label="Rahmani,A.-M.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Inf. Technol., Univ. of Turku, Turku, Finland" />
+        </attvalues>
+      </node>
+      <node id="61" label="Pour,N.K.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="" />
+        </attvalues>
+      </node>
+      <node id="28" label="Nazario,G.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Carnegie Mellon Univ., Pittsburgh, PA, USA" />
+        </attvalues>
+      </node>
+      <node id="107" label="Tenhunen,H.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Univ. of Turku, Turku, Finland" />
+        </attvalues>
+      </node>
+      <node id="39" label="Ogras,U.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. &amp; Comput. Eng., Texas A&amp;M Univ., College Station, TX, USA" />
+        </attvalues>
+      </node>
+      <node id="106" label="Palesi,M.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Univ. of Turku, Turku, Finland" />
+        </attvalues>
+      </node>
+      <node id="86" label="Miller,J.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. Eng. &amp; Comput. Sci., Massachusetts Inst. of Technol., Cambridge, MA, USA" />
+        </attvalues>
+      </node>
+      <node id="43" label="KiHwanYum">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Comput. Sci. &amp; Eng., Texas A&amp;M Univ., College Station, TX, USA" />
+        </attvalues>
+      </node>
+      <node id="62" label="Falsafi,B.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="" />
+        </attvalues>
+      </node>
+      <node id="60" label="Grot,B.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="" />
+        </attvalues>
+      </node>
+      <node id="94" label="DanZhao">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Center for Adv. Comput. Studies, Univ. of Louisiana at Lafayette, Lafayette, LA, USA" />
+        </attvalues>
+      </node>
+      <node id="21" label="Colaso,A.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. de Electron. y Comput., Univ. of Cantabria, Santander, Spain" />
+        </attvalues>
+      </node>
+      <node id="74" label="Lujan,M.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Sch. of Comput. Sci., Univ. of Manchester, Manchester, UK" />
+        </attvalues>
+      </node>
+      <node id="80" label="XianyangJiang">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electron. Syst., KTH (R. Inst of Technol.), Stockholm, Sweden" />
+        </attvalues>
+      </node>
+      <node id="53" label="Cortadella,J.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Univ. Politec. de Catalunya, Barcelona, Spain" />
+        </attvalues>
+      </node>
+      <node id="23" label="Gregorio,J.-A.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. de Electron. y Comput., Univ. of Cantabria, Santander, Spain" />
+        </attvalues>
+      </node>
+      <node id="7" label="Jerger,N.E.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. &amp; Comput. Eng., Univ. of Toronto, Toronto, ON, Canada" />
+        </attvalues>
+      </node>
+      <node id="105" label="Farahnakian,F.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Univ. of Turku, Turku, Finland" />
+        </attvalues>
+      </node>
+      <node id="25" label="Melhem,R.G.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="" />
+        </attvalues>
+      </node>
+      <node id="104" label="Daneshtalab,M.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Univ. of Turku, Turku, Finland" />
+        </attvalues>
+      </node>
+      <node id="81" label="MeikangQiu">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electron. Syst., KTH (R. Inst of Technol.), Stockholm, Sweden" />
+        </attvalues>
+      </node>
+      <node id="79" label="Schamberger,P.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electron. Syst., KTH (R. Inst of Technol.), Stockholm, Sweden" />
+        </attvalues>
+      </node>
+      <node id="22" label="Puente,V.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. de Electron. y Comput., Univ. of Cantabria, Santander, Spain" />
+        </attvalues>
+      </node>
+      <node id="78" label="Gavila,R.T.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of ECE, Carnegie Mellon Univ., Pittsburgh, PA, USA" />
+        </attvalues>
+      </node>
+      <node id="83" label="Chen,C.-H.O.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. Eng. &amp; Comput. Sci., Massachusetts Inst. of Technol., Cambridge, MA, USA" />
+        </attvalues>
+      </node>
+      <node id="96" label="Carrillo,S.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Intell. Syst. Res. Centre, Univ. of Ulster, Derry, UK" />
+        </attvalues>
+      </node>
+      <node id="70" label="Navaridas,J.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Sch. of Comput. Sci., Univ. of Manchester, Manchester, UK" />
+        </attvalues>
+      </node>
+      <node id="111" label="Louri,A.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Electr. Eng. &amp; Comput. Sci, Ohio Univ., Athens, OH, USA" />
+        </attvalues>
+      </node>
+      <node id="91" label="Acacio,M.E.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Univ. Politec. de Valencia, Valencia, Spain" />
+        </attvalues>
+      </node>
+      <node id="106" label="Liljeberg,P.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Univ. of Turku, Turku, Finland" />
+        </attvalues>
+      </node>
+      <node id="90" label="Lodde,M.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Univ. Politec. de Valencia, Valencia, Spain" />
+        </attvalues>
+      </node>
+      <node id="31" label="Ausavarungnirun,R.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Carnegie Mellon Univ., Pittsburgh, PA, USA" />
+        </attvalues>
+      </node>
+      <node id="80" label="ZhonghaiLu">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electron. Syst., KTH (R. Inst of Technol.), Stockholm, Sweden" />
+        </attvalues>
+      </node>
+      <node id="48" label=",J.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Inf. &amp; Math. Modeling, Tech. Univ. of Denmark, Lyngby, Denmark" />
+        </attvalues>
+      </node>
+      <node id="10" label="Latif,K.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Inf. Technol., Univ. of Turku, Turku, Finland" />
+        </attvalues>
+      </node>
+      <node id="110" label="Kodi,A.K.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Electr. Eng. &amp; Comput. Sci, Ohio Univ., Athens, OH, USA" />
+        </attvalues>
+      </node>
+      <node id="33" label="XiChen">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. &amp; Comput. Eng., Texas A&amp;M Univ., College Station, TX, USA" />
+        </attvalues>
+      </node>
+      <node id="58" label="Volos,S.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="" />
+        </attvalues>
+      </node>
+      <node id="99" label="Pande,S.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Intell. Syst. Res. Centre, Univ. of Ulster, Derry, UK" />
+        </attvalues>
+      </node>
+      <node id="77" label="Jain,S.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of ECE, Carnegie Mellon Univ., Pittsburgh, PA, USA" />
+        </attvalues>
+      </node>
+      <node id="69" label="Ampadu,P.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. &amp; Comput. Eng., Univ. of New Hampshire, Durham, NH, USA" />
+        </attvalues>
+      </node>
+      <node id="47" label="Spars&amp;#x00F8">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Inf. &amp; Math. Modeling, Tech. Univ. of Denmark, Lyngby, Denmark" />
+        </attvalues>
+      </node>
+      <node id="36" label="Gratz,P.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. &amp; Comput. Eng., Texas A&amp;M Univ., College Station, TX, USA" />
+        </attvalues>
+      </node>
+      <node id="52" label="Carmona,J.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Univ. Politec. de Catalunya, Barcelona, Spain" />
+        </attvalues>
+      </node>
+      <node id="89" label="Stojanovic,V.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. Eng. &amp; Comput. Sci., Massachusetts Inst. of Technol., Cambridge, MA, USA" />
+        </attvalues>
+      </node>
+      <node id="35" label="HyungjunKim">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. &amp; Comput. Eng., Texas A&amp;M Univ., College Station, TX, USA" />
+        </attvalues>
+      </node>
+      <node id="87" label="Agarwal,A.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. Eng. &amp; Comput. Sci., Massachusetts Inst. of Technol., Cambridge, MA, USA" />
+        </attvalues>
+      </node>
+      <node id="5" label="Hesse,R.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. &amp; Comput. Eng., Univ. of Toronto, Toronto, ON, Canada" />
+        </attvalues>
+      </node>
+      <node id="16" label="Carloni,L.P.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Eng. Dept., Univ. of Ferrara, Ferrara, Italy" />
+        </attvalues>
+      </node>
+      <node id="2" label="ChanglinChen">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Comput. Sci. &amp; Eng., Software &amp; Comput. Technol., Delft Univ. of Technol., Delft, Netherlands" />
+        </attvalues>
+      </node>
+      <node id="82" label="ChenSun">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. Eng. &amp; Comput. Sci., Massachusetts Inst. of Technol., Cambridge, MA, USA" />
+        </attvalues>
+      </node>
+      <node id="6" label="Nicholls,J.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. &amp; Comput. Eng., Univ. of Toronto, Toronto, ON, Canada" />
+        </attvalues>
+      </node>
+      <node id="55" label="Suh,G.E.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Comput. Syst. Lab., Cornell Univ., Ithaca, NY, USA" />
+        </attvalues>
+      </node>
+      <node id="65" label="Wang,Yi">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="" />
+        </attvalues>
+      </node>
+      <node id="101" label="McGinley,B.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Intell. Syst. Res. Centre, Univ. of Ulster, Derry, UK" />
+        </attvalues>
+      </node>
+      <node id="73" label="Faraboschi,P.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Sch. of Comput. Sci., Univ. of Manchester, Manchester, UK" />
+        </attvalues>
+      </node>
+      <node id="54" label="YaoWang">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Comput. Syst. Lab., Cornell Univ., Ithaca, NY, USA" />
+        </attvalues>
+      </node>
+      <node id="88" label="Li-ShiuanPeh">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. Eng. &amp; Comput. Sci., Massachusetts Inst. of Technol., Cambridge, MA, USA" />
+        </attvalues>
+      </node>
+      <node id="37" label="JiangHu">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. &amp; Comput. Eng., Texas A&amp;M Univ., College Station, TX, USA" />
+        </attvalues>
+      </node>
+      <node id="32" label="Mutlu,O.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Carnegie Mellon Univ., Pittsburgh, PA, USA" />
+        </attvalues>
+      </node>
+      <node id="75" label="Bogdan,P.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of ECE, Carnegie Mellon Univ., Pittsburgh, PA, USA" />
+        </attvalues>
+      </node>
+      <node id="71" label="Khan,B.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Sch. of Comput. Sci., Univ. of Manchester, Manchester, UK" />
+        </attvalues>
+      </node>
+      <node id="29" label="XiangyaoYu">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Carnegie Mellon Univ., Pittsburgh, PA, USA" />
+        </attvalues>
+      </node>
+      <node id="26" label="Jones,A.K.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="" />
+        </attvalues>
+      </node>
+      <node id="46" label="Brandner,F.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Inf. &amp; Math. Modeling, Tech. Univ. of Denmark, Lyngby, Denmark" />
+        </attvalues>
+      </node>
+      <node id="85" label="LanWei">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. Eng. &amp; Comput. Sci., Massachusetts Inst. of Technol., Cambridge, MA, USA" />
+        </attvalues>
+      </node>
+      <node id="107" label="Khan,G.N.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Electr. &amp; Comput. Eng., Ryerson Univ., Toronto, ON, Canada" />
+        </attvalues>
+      </node>
+      <node id="57" label="YiWang">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electron. Syst., KTH (R. Inst. of Technol.), Stockholm, Sweden" />
+        </attvalues>
+      </node>
+      <node id="95" label="RuizheWu">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Center for Adv. Comput. Studies, Univ. of Louisiana at Lafayette, Lafayette, LA, USA" />
+        </attvalues>
+      </node>
+      <node id="34" label="ZhengXu">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. &amp; Comput. Eng., Texas A&amp;M Univ., College Station, TX, USA" />
+        </attvalues>
+      </node>
+      <node id="50" label="Nikitin,N.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Univ. Politec. de Catalunya, Barcelona, Spain" />
+        </attvalues>
+      </node>
+      <node id="108" label="Tino,A.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Electr. &amp; Comput. Eng., Ryerson Univ., Toronto, ON, Canada" />
+        </attvalues>
+      </node>
+      <node id="3" label="YeLu">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Comput. Sci. &amp; Eng., Software &amp; Comput. Technol., Delft Univ. of Technol., Delft, Netherlands" />
+        </attvalues>
+      </node>
+      <node id="92" label="Tsiligiannis,G.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="TIMA Lab., GrenobleINP-UJF, Grenoble, France" />
+        </attvalues>
+      </node>
+      <node id="24" label="Abousamra,A.K.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="" />
+        </attvalues>
+      </node>
+      <node id="30" label="Chang,K.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Carnegie Mellon Univ., Pittsburgh, PA, USA" />
+        </attvalues>
+      </node>
+      <node id="106" label="Plosila,J.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Univ. of Turku, Turku, Finland" />
+        </attvalues>
+      </node>
+      <node id="59" label="Seiculescu,C.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="" />
+        </attvalues>
+      </node>
+      <node id="51" label="deSanPedro,J.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Univ. Politec. de Catalunya, Barcelona, Spain" />
+        </attvalues>
+      </node>
+      <node id="38" label="Kishinevsky,M.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. &amp; Comput. Eng., Texas A&amp;M Univ., College Station, TX, USA" />
+        </attvalues>
+      </node>
+      <node id="93" label="Pierre,L.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="TIMA Lab., GrenobleINP-UJF, Grenoble, France" />
+        </attvalues>
+      </node>
+      <node id="67" label="Cano,J.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. &amp; Comput. Eng., Univ. of New Hampshire, Durham, NH, USA" />
+        </attvalues>
+      </node>
+      <node id="76" label="Marculescu,R.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of ECE, Carnegie Mellon Univ., Pittsburgh, PA, USA" />
+        </attvalues>
+      </node>
+      <node id="20" label="Menezo,L.G.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. de Electron. y Comput., Univ. of Cantabria, Santander, Spain" />
+        </attvalues>
+      </node>
+      <node id="4" label="Cotofana,S.D.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Comput. Sci. &amp; Eng., Software &amp; Comput. Technol., Delft Univ. of Technol., Delft, Netherlands" />
+        </attvalues>
+      </node>
+      <node id="66" label="Yu,Qiaoyan">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. &amp; Comput. Eng., Univ. of New Hampshire, Durham, NH, USA" />
+        </attvalues>
+      </node>
+      <node id="97" label="Harkin,J.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Intell. Syst. Res. Centre, Univ. of Ulster, Derry, UK" />
+        </attvalues>
+      </node>
+      <node id="41" label="BaikSongAn">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Comput. Sci. &amp; Eng., Texas A&amp;M Univ., College Station, TX, USA" />
+        </attvalues>
+      </node>
+      <node id="102" label="Morgan,F.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Intell. Syst. Res. Centre, Univ. of Ulster, Derry, UK" />
+        </attvalues>
+      </node>
+      <node id="63" label="DeMicheli,G.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="" />
+        </attvalues>
+      </node>
+      <node id="72" label="Khan,S.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Sch. of Comput. Sci., Univ. of Manchester, Manchester, UK" />
+        </attvalues>
+      </node>
+      <node id="103" label="Ebrahimi,M.">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Univ. of Turku, Turku, Finland" />
+        </attvalues>
+      </node>
+      <node id="56" label="ZhotighaiLu">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electron. Syst., KTH (R. Inst. of Technol.), Stockholm, Sweden" />
+        </attvalues>
+      </node>
+      <node id="40" label="HyunjunJang">
+        <attvalues>
+          <attvalue for="0" value="nocs2012" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Comput. Sci. &amp; Eng., Texas A&amp;M Univ., College Station, TX, USA" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="107" target="107" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="107" target="62" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="107" target="80" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="107" target="60" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="107" target="24" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="107" target="61" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="107" target="63" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="107" target="65" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="107" target="58" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="107" target="25" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="107" target="59" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="107" target="26" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="84" target="85" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="84" target="83" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="84" target="82" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="84" target="88" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="84" target="89" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="84" target="87" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="84" target="86" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="19" target="20" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="19" target="18" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="19" target="21" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="19" target="23" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="19" target="22" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="14" target="15" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="14" target="16" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="15" target="14" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="15" target="16" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="91" target="67" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="91" target="90" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="91" target="69" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="91" target="66" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="91" target="91" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="98" target="96" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="98" target="102" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="98" target="101" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="98" target="99" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="98" target="100" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="98" target="97" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="27" target="31" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="27" target="29" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="27" target="32" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="27" target="30" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="27" target="28" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="9" target="106" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="9" target="106" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="9" target="107" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="9" target="10" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="9" target="8" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="45" target="47" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="45" target="46" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="45" target="49" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="45" target="48" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="49" target="45" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="49" target="46" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="49" target="47" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="56" source="49" target="48" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="57" source="100" target="98" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="58" source="100" target="96" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="59" source="100" target="102" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="60" source="100" target="101" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="61" source="100" target="99" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="62" source="100" target="97" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="63" source="42" target="41" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="64" source="42" target="43" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="65" source="42" target="44" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="66" source="42" target="40" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="67" source="109" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="68" source="109" target="111" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="69" source="18" target="23" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="70" source="18" target="19" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="71" source="18" target="21" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="72" source="18" target="20" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="73" source="18" target="22" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="74" source="44" target="43" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="75" source="44" target="41" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="76" source="44" target="42" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="77" source="44" target="40" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="78" source="8" target="106" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="79" source="8" target="106" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="80" source="8" target="107" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="81" source="8" target="10" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="82" source="8" target="9" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="83" source="61" target="62" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="84" source="61" target="107" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="85" source="61" target="80" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="86" source="61" target="60" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="87" source="61" target="24" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="88" source="61" target="63" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="89" source="61" target="65" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="90" source="61" target="58" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="91" source="61" target="25" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="92" source="61" target="26" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="93" source="61" target="59" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="94" source="28" target="29" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="95" source="28" target="31" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="96" source="28" target="27" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="97" source="28" target="32" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="98" source="28" target="30" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="99" source="107" target="106" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="100" source="107" target="106" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="101" source="107" target="8" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="102" source="107" target="9" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="103" source="107" target="103" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="104" source="107" target="10" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="105" source="107" target="105" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="106" source="107" target="104" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="107" source="107" target="106" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="108" source="39" target="38" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="109" source="39" target="36" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="110" source="39" target="34" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="111" source="39" target="37" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="112" source="39" target="35" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="113" source="39" target="33" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="114" source="106" target="106" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="115" source="106" target="107" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="116" source="106" target="103" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="117" source="106" target="105" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="118" source="106" target="104" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="119" source="106" target="106" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="120" source="86" target="84" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="121" source="86" target="85" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="122" source="86" target="83" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="123" source="86" target="82" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="124" source="86" target="88" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="125" source="86" target="89" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="126" source="86" target="87" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="127" source="43" target="41" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="128" source="43" target="42" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="129" source="43" target="44" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="130" source="43" target="40" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="131" source="62" target="107" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="132" source="62" target="80" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="133" source="62" target="60" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="134" source="62" target="24" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="135" source="62" target="61" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="136" source="62" target="63" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="137" source="62" target="65" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="138" source="62" target="58" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="139" source="62" target="25" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="140" source="62" target="26" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="141" source="62" target="59" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="142" source="60" target="62" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="143" source="60" target="107" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="144" source="60" target="80" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="145" source="60" target="24" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="146" source="60" target="61" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="147" source="60" target="63" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="148" source="60" target="65" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="149" source="60" target="58" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="150" source="60" target="25" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="151" source="60" target="26" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="152" source="60" target="59" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="153" source="94" target="95" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="154" source="21" target="23" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="155" source="21" target="19" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="156" source="21" target="18" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="157" source="21" target="20" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="158" source="21" target="22" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="159" source="74" target="73" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="160" source="74" target="71" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="161" source="74" target="72" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="162" source="74" target="70" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="163" source="80" target="81" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="164" source="80" target="79" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="165" source="80" target="80" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="166" source="53" target="50" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="167" source="53" target="51" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="168" source="53" target="52" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="169" source="23" target="19" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="170" source="23" target="18" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="171" source="23" target="21" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="172" source="23" target="20" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="173" source="23" target="22" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="174" source="7" target="6" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="175" source="7" target="5" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="176" source="105" target="106" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="177" source="105" target="106" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="178" source="105" target="103" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="179" source="105" target="107" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="180" source="105" target="104" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="181" source="105" target="106" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="182" source="25" target="107" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="183" source="25" target="62" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="184" source="25" target="80" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="185" source="25" target="60" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="186" source="25" target="24" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="187" source="25" target="61" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="188" source="25" target="63" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="189" source="25" target="65" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="190" source="25" target="58" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="191" source="25" target="59" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="192" source="25" target="26" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="193" source="104" target="106" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="194" source="104" target="107" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="195" source="104" target="106" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="196" source="104" target="103" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="197" source="104" target="105" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="198" source="104" target="106" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="199" source="81" target="80" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="200" source="81" target="79" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="201" source="81" target="80" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="202" source="79" target="80" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="203" source="79" target="81" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="204" source="79" target="80" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="205" source="22" target="19" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="206" source="22" target="18" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="207" source="22" target="21" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="208" source="22" target="20" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="209" source="22" target="23" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="210" source="78" target="76" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="211" source="78" target="75" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="212" source="78" target="77" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="213" source="83" target="84" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="214" source="83" target="85" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="215" source="83" target="82" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="216" source="83" target="88" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="217" source="83" target="89" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="218" source="83" target="87" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="219" source="83" target="86" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="220" source="96" target="98" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="221" source="96" target="102" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="222" source="96" target="101" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="223" source="96" target="99" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="224" source="96" target="100" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="225" source="96" target="97" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="226" source="70" target="73" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="227" source="70" target="71" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="228" source="70" target="72" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="229" source="70" target="74" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="230" source="111" target="109" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="231" source="111" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="232" source="91" target="90" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="233" source="91" target="91" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="234" source="106" target="105" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="235" source="106" target="106" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="236" source="106" target="8" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="237" source="106" target="9" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="238" source="106" target="103" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="239" source="106" target="10" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="240" source="106" target="107" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="241" source="106" target="104" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="242" source="106" target="106" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="243" source="90" target="91" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="244" source="90" target="91" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="245" source="31" target="29" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="246" source="31" target="27" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="247" source="31" target="32" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="248" source="31" target="30" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="249" source="31" target="28" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="250" source="80" target="107" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="251" source="80" target="62" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="252" source="80" target="60" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="253" source="80" target="24" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="254" source="80" target="80" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="255" source="80" target="61" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="256" source="80" target="63" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="257" source="80" target="65" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="258" source="80" target="25" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="259" source="80" target="59" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="260" source="80" target="58" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="261" source="80" target="81" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="262" source="80" target="79" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="263" source="80" target="26" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="264" source="48" target="45" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="265" source="48" target="46" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="266" source="48" target="49" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="267" source="48" target="47" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="268" source="10" target="106" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="269" source="10" target="106" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="270" source="10" target="107" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="271" source="10" target="9" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="272" source="10" target="8" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="273" source="110" target="109" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="274" source="110" target="111" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="275" source="33" target="38" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="276" source="33" target="36" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="277" source="33" target="34" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="278" source="33" target="39" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="279" source="33" target="37" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="280" source="33" target="35" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="281" source="58" target="62" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="282" source="58" target="107" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="283" source="58" target="80" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="284" source="58" target="60" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="285" source="58" target="24" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="286" source="58" target="61" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="287" source="58" target="63" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="288" source="58" target="65" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="289" source="58" target="25" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="290" source="58" target="26" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="291" source="58" target="59" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="292" source="99" target="98" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="293" source="99" target="96" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="294" source="99" target="102" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="295" source="99" target="101" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="296" source="99" target="100" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="297" source="99" target="97" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="298" source="77" target="76" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="299" source="77" target="78" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="300" source="77" target="75" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="301" source="69" target="67" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="302" source="69" target="91" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="303" source="69" target="66" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="304" source="47" target="45" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="305" source="47" target="46" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="306" source="47" target="49" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="307" source="47" target="48" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="308" source="36" target="38" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="309" source="36" target="34" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="310" source="36" target="39" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="311" source="36" target="37" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="312" source="36" target="35" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="313" source="36" target="33" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="314" source="52" target="53" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="315" source="52" target="50" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="316" source="52" target="51" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="317" source="89" target="84" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="318" source="89" target="85" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="319" source="89" target="83" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="320" source="89" target="82" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="321" source="89" target="88" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="322" source="89" target="87" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="323" source="89" target="86" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="324" source="35" target="38" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="325" source="35" target="34" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="326" source="35" target="36" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="327" source="35" target="39" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="328" source="35" target="37" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="329" source="35" target="33" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="330" source="87" target="84" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="331" source="87" target="85" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="332" source="87" target="83" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="333" source="87" target="82" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="334" source="87" target="88" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="335" source="87" target="89" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="336" source="87" target="86" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="337" source="5" target="6" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="338" source="5" target="7" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="339" source="16" target="15" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="340" source="16" target="14" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="341" source="82" target="84" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="342" source="82" target="85" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="343" source="82" target="83" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="344" source="82" target="88" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="345" source="82" target="89" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="346" source="82" target="87" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="347" source="82" target="86" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="348" source="6" target="5" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="349" source="6" target="7" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="350" source="55" target="54" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="351" source="65" target="107" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="352" source="65" target="62" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="353" source="65" target="80" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="354" source="65" target="24" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="355" source="65" target="61" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="356" source="65" target="60" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="357" source="65" target="63" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="358" source="65" target="58" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="359" source="65" target="25" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="360" source="65" target="59" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="361" source="65" target="26" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="362" source="101" target="98" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="363" source="101" target="96" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="364" source="101" target="102" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="365" source="101" target="99" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="366" source="101" target="100" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="367" source="101" target="97" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="368" source="73" target="71" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="369" source="73" target="72" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="370" source="73" target="74" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="371" source="73" target="70" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="372" source="54" target="55" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="373" source="88" target="84" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="374" source="88" target="85" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="375" source="88" target="83" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="376" source="88" target="82" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="377" source="88" target="89" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="378" source="88" target="87" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="379" source="88" target="86" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="380" source="37" target="38" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="381" source="37" target="36" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="382" source="37" target="34" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="383" source="37" target="39" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="384" source="37" target="35" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="385" source="37" target="33" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="386" source="32" target="29" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="387" source="32" target="31" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="388" source="32" target="27" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="389" source="32" target="30" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="390" source="32" target="28" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="391" source="75" target="76" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="392" source="75" target="78" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="393" source="75" target="77" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="394" source="71" target="73" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="395" source="71" target="72" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="396" source="71" target="74" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="397" source="71" target="70" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="398" source="29" target="31" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="399" source="29" target="27" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="400" source="29" target="32" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="401" source="29" target="30" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="402" source="29" target="28" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="403" source="26" target="107" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="404" source="26" target="62" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="405" source="26" target="80" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="406" source="26" target="60" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="407" source="26" target="24" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="408" source="26" target="61" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="409" source="26" target="63" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="410" source="26" target="65" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="411" source="26" target="58" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="412" source="26" target="25" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="413" source="26" target="59" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="414" source="46" target="45" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="415" source="46" target="47" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="416" source="46" target="49" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="417" source="46" target="48" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="418" source="85" target="84" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="419" source="85" target="83" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="420" source="85" target="82" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="421" source="85" target="88" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="422" source="85" target="89" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="423" source="85" target="87" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="424" source="85" target="86" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="425" source="107" target="108" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="426" source="57" target="56" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="427" source="95" target="94" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="428" source="34" target="38" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="429" source="34" target="36" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="430" source="34" target="39" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="431" source="34" target="37" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="432" source="34" target="35" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="433" source="34" target="33" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="434" source="50" target="53" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="435" source="50" target="51" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="436" source="50" target="52" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="437" source="108" target="107" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="438" source="92" target="93" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="439" source="24" target="107" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="440" source="24" target="62" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="441" source="24" target="80" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="442" source="24" target="60" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="443" source="24" target="61" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="444" source="24" target="63" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="445" source="24" target="65" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="446" source="24" target="58" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="447" source="24" target="25" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="448" source="24" target="26" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="449" source="24" target="59" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="450" source="30" target="29" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="451" source="30" target="31" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="452" source="30" target="27" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="453" source="30" target="32" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="454" source="30" target="28" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="455" source="106" target="106" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="456" source="106" target="105" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="457" source="106" target="106" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="458" source="106" target="8" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="459" source="106" target="9" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="460" source="106" target="103" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="461" source="106" target="10" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="462" source="106" target="107" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="463" source="106" target="104" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="464" source="59" target="62" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="465" source="59" target="107" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="466" source="59" target="80" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="467" source="59" target="60" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="468" source="59" target="24" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="469" source="59" target="61" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="470" source="59" target="63" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="471" source="59" target="65" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="472" source="59" target="58" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="473" source="59" target="25" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="474" source="59" target="26" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="475" source="51" target="53" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="476" source="51" target="50" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="477" source="51" target="52" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="478" source="38" target="36" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="479" source="38" target="34" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="480" source="38" target="39" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="481" source="38" target="37" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="482" source="38" target="35" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="483" source="38" target="33" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="484" source="93" target="92" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="485" source="67" target="69" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="486" source="67" target="91" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="487" source="67" target="66" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="488" source="76" target="78" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="489" source="76" target="75" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="490" source="76" target="77" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="491" source="20" target="19" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="492" source="20" target="18" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="493" source="20" target="21" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="494" source="20" target="23" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="495" source="20" target="22" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="496" source="66" target="67" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="497" source="66" target="69" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="498" source="66" target="91" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="499" source="97" target="98" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="500" source="97" target="96" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="501" source="97" target="102" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="502" source="97" target="101" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="503" source="97" target="99" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="504" source="97" target="100" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="505" source="41" target="43" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="506" source="41" target="42" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="507" source="41" target="44" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="508" source="41" target="40" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="509" source="102" target="98" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="510" source="102" target="96" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="511" source="102" target="101" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="512" source="102" target="99" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="513" source="102" target="100" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="514" source="102" target="97" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="515" source="63" target="62" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="516" source="63" target="107" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="517" source="63" target="80" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="518" source="63" target="60" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="519" source="63" target="24" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="520" source="63" target="61" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="521" source="63" target="65" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="522" source="63" target="58" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="523" source="63" target="25" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="524" source="63" target="26" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="525" source="63" target="59" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="526" source="72" target="73" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="527" source="72" target="71" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="528" source="72" target="74" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="529" source="72" target="70" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="530" source="103" target="106" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="531" source="103" target="107" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="532" source="103" target="106" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="533" source="103" target="105" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="534" source="103" target="104" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="535" source="103" target="106" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="536" source="56" target="57" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="537" source="40" target="43" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="538" source="40" target="41" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="539" source="40" target="42" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="540" source="40" target="44" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

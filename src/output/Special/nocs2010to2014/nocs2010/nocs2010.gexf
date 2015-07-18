@@ -1,0 +1,3625 @@
+<gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="edge" mode="static">
+      <attribute id="4" title="tag" type="string" />
+    </attributes>
+    <attributes class="node" mode="static">
+      <attribute id="0" title="conference" type="string" />
+      <attribute id="1" title="importance" type="integer" />
+      <attribute id="2" title="tag" type="string" />
+      <attribute id="3" title="institution" type="string" />
+    </attributes>
+    <nodes>
+      <node id="114" label="">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="" />
+        </attvalues>
+      </node>
+      <node id="23" label="Ikebuchi,D.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Univ. of Tokyo, Tokyo, Japan" />
+        </attvalues>
+      </node>
+      <node id="87" label="Hao-YuWang">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Grad. Inst. of Electron. Eng., Nat. Taiwan Univ., Taipei, Taiwan" />
+        </attvalues>
+      </node>
+      <node id="49" label="Go&amp;#x0301">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Univ. Politec. de Valencia, Valencia, Spain" />
+        </attvalues>
+      </node>
+      <node id="147" label="Murali,S.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="EPFL" />
+        </attvalues>
+      </node>
+      <node id="14" label="Yu-HsiangKao">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. &amp; Comput. Eng., Polytech. Inst. of New York Univ., Brooklyn, NY, USA" />
+        </attvalues>
+      </node>
+      <node id="121" label="Bertozzi,D.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="tpc_author_" />
+          <attvalue for="3" value="University of Ferrara" />
+        </attvalues>
+      </node>
+      <node id="125" label="Flich,J.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="tpc_author_" />
+          <attvalue for="3" value="University P. de Valencia" />
+        </attvalues>
+      </node>
+      <node id="113" label="Vishkin,U.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="ECE Dept., Univ. of Maryland, College Park, MD, USA" />
+        </attvalues>
+      </node>
+      <node id="118" label="Basten,T.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="Eindhoven" />
+        </attvalues>
+      </node>
+      <node id="111" label="Nowick,S.M.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="ECE Dept., Univ. of Maryland, College Park, MD, USA" />
+        </attvalues>
+      </node>
+      <node id="162" label="Sparso,J.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="DTU" />
+        </attvalues>
+      </node>
+      <node id="20" label="SungguLee">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electron. &amp; Electr. Eng., Pohang Univ. of Sci. &amp; Technol. (POSTECH), Pohang, South Korea" />
+        </attvalues>
+      </node>
+      <node id="103" label="David,R.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Embedded Comput. Lab., CEA, Gif-sur-Yvette, France" />
+        </attvalues>
+      </node>
+      <node id="69" label="Draper,J.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Inf. Sci. Inst., Univ. of Southern California, Los Angeles, CA, USA" />
+        </attvalues>
+      </node>
+      <node id="29" label="Pilia,A.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="DIEE Dept. of Electr. &amp; Electron. Eng., Univ. of Cagliari, Cagliari, Italy" />
+        </attvalues>
+      </node>
+      <node id="137" label="Lin,B.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="UCSD" />
+        </attvalues>
+      </node>
+      <node id="22" label="Koibuchi,M.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Univ. of Tokyo, Tokyo, Japan" />
+        </attvalues>
+      </node>
+      <node id="1" label="Authors">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Author Affiliations" />
+        </attvalues>
+      </node>
+      <node id="135" label="Lajolo,M.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="NEC C&amp;C Labs" />
+        </attvalues>
+      </node>
+      <node id="12" label="BoFu">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. &amp; Comput. Eng., Univ. of Rochester, Rochester, NY, USA" />
+        </attvalues>
+      </node>
+      <node id="90" label="Sawan,M.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Univ. of Montreal, Montreal, QC, Canada" />
+        </attvalues>
+      </node>
+      <node id="51" label="Diemer,J.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Inst. of Comput. &amp; Network Eng., Tech. Univ. Braunschweig, Braunschweig, Germany" />
+        </attvalues>
+      </node>
+      <node id="99" label="Stevens,K.S.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Sch. of Comput., Univ. of Utah, Salt Lake City, UT, USA" />
+        </attvalues>
+      </node>
+      <node id="11" label="Wolpert,D.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. &amp; Comput. Eng., Univ. of Rochester, Rochester, NY, USA" />
+        </attvalues>
+      </node>
+      <node id="6" label="Tenhunen,H.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Inf. Technol., Univ. of Turku, Turku, Finland" />
+        </attvalues>
+      </node>
+      <node id="151" label="Ogras,U.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="tpc_author_" />
+          <attvalue for="3" value="Intel" />
+        </attvalues>
+      </node>
+      <node id="120" label="Bertacco,V.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="University of Michigan" />
+        </attvalues>
+      </node>
+      <node id="121" label="Chatha,K.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="Arizona State University" />
+        </attvalues>
+      </node>
+      <node id="26" label="Amano,H.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Univ. of Tokyo, Tokyo, Japan" />
+        </attvalues>
+      </node>
+      <node id="44" label="Wild,T.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Inst. for Integrated Syst., Tech. Univ. Muenchen, Munich, Germany" />
+        </attvalues>
+      </node>
+      <node id="76" label="Kas,M.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. &amp; Comput. Eng., Carnegie Mellon Univ., Pittsburgh, PA, USA" />
+        </attvalues>
+      </node>
+      <node id="149" label="Nowick,S.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="Columbia University" />
+        </attvalues>
+      </node>
+      <node id="55" label="DanZhao">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Center for Adv. Comput. Studies, Univ. of Louisiana at Lafayette, Lafayette, LA, USA" />
+        </attvalues>
+      </node>
+      <node id="107" label="Clermidy,F.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="LETI, CEA, Grenoble, France" />
+        </attvalues>
+      </node>
+      <node id="150" label="Nurmi,J.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="Tampere University Tech." />
+        </attvalues>
+      </node>
+      <node id="119" label="Jamaa,H.Ben">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="EPFL" />
+        </attvalues>
+      </node>
+      <node id="116" label="Bainbridge,J.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="Silistix" />
+        </attvalues>
+      </node>
+      <node id="50" label="mez,M.E.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Univ. Politec. de Valencia, Valencia, Spain" />
+        </attvalues>
+      </node>
+      <node id="115" label="Angiolini,F.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="University of Bologna" />
+        </attvalues>
+      </node>
+      <node id="170" label="Yakovlev,A.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="University Newcastle" />
+        </attvalues>
+      </node>
+      <node id="17" label="Chao,H.J.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. &amp; Comput. Eng., Polytech. Inst. of New York Univ., Brooklyn, NY, USA" />
+        </attvalues>
+      </node>
+      <node id="27" label="Palumbo,F.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="DIEE Dept. of Electr. &amp; Electron. Eng., Univ. of Cagliari, Cagliari, Italy" />
+        </attvalues>
+      </node>
+      <node id="162" label="Sonntag,S.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="tpc_author_" />
+          <attvalue for="3" value="Infineon" />
+        </attvalues>
+      </node>
+      <node id="161" label="Smit,G.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="University of Twente" />
+        </attvalues>
+      </node>
+      <node id="80" label="Sanchez,D.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Electr. Eng. Dept., Stanford Univ., Stanford, CA, USA" />
+        </attvalues>
+      </node>
+      <node id="10" label="Pnevmatikatos,D.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Inst. of Comput. Sci. (ICS), Found. for Res. &amp; Technol. (FORTH), Heraklion, Greece" />
+        </attvalues>
+      </node>
+      <node id="159" label="Shang,L.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="University of Colorado" />
+        </attvalues>
+      </node>
+      <node id="88" label="Jia-ChengWu">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Grad. Inst. of Electron. Eng., Nat. Taiwan Univ., Taipei, Taiwan" />
+        </attvalues>
+      </node>
+      <node id="67" label="YoungHoonKang">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Inf. Sci. Inst., Univ. of Southern California, Los Angeles, CA, USA" />
+        </attvalues>
+      </node>
+      <node id="169" label="Yalamanchili,S.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="Georgia Tech." />
+        </attvalues>
+      </node>
+      <node id="16" label="MingYang">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. &amp; Comput. Eng., Polytech. Inst. of New York Univ., Brooklyn, NY, USA" />
+        </attvalues>
+      </node>
+      <node id="122" label="Das,C.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="Penn State" />
+        </attvalues>
+      </node>
+      <node id="98" label="JunbokYou">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Sch. of Comput., Univ. of Utah, Salt Lake City, UT, USA" />
+        </attvalues>
+      </node>
+      <node id="40" label="Camacho,J.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Parallel Archit. Group, Tech. Univ. of Valencia, Valencia, Spain" />
+        </attvalues>
+      </node>
+      <node id="2" label="Daneshtalab,M.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Inf. Technol., Univ. of Turku, Turku, Finland" />
+        </attvalues>
+      </node>
+      <node id="104" label="Merigot,A.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Embedded Comput. Lab., CEA, Gif-sur-Yvette, France" />
+        </attvalues>
+      </node>
+      <node id="25" label="Nakamura,H.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Univ. of Tokyo, Tokyo, Japan" />
+        </attvalues>
+      </node>
+      <node id="70" label="Chen,C.-H.O.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. Eng. &amp; Comput. Sci., Massachusettes Inst. of Technol., Cambridge, MA, USA" />
+        </attvalues>
+      </node>
+      <node id="144" label="Mitra,S.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="Stanford University" />
+        </attvalues>
+      </node>
+      <node id="142" label="Marculescu,D.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="Carnegie Mellon University" />
+        </attvalues>
+      </node>
+      <node id="132" label="Jantsch,A.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="KTH" />
+        </attvalues>
+      </node>
+      <node id="48" label="Gilabert,F.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Univ. Politec. de Valencia, Valencia, Spain" />
+        </attvalues>
+      </node>
+      <node id="125" label="Friedman,E.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="University of Rochester" />
+        </attvalues>
+      </node>
+      <node id="8" label="Passas,G.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Inst. of Comput. Sci. (ICS), Found. for Res. &amp; Technol. (FORTH), Heraklion, Greece" />
+        </attvalues>
+      </node>
+      <node id="56" label="QiaoyanYu">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. &amp; Comput. Eng., Univ. of Rochester, Rochester, NY, USA" />
+        </attvalues>
+      </node>
+      <node id="155" label="Pasricha,S.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="Colorado State University" />
+        </attvalues>
+      </node>
+      <node id="165" label="Towles,B.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="D. E. Shaw" />
+        </attvalues>
+      </node>
+      <node id="4" label="Liljeberg,P.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Inf. Technol., Univ. of Turku, Turku, Finland" />
+        </attvalues>
+      </node>
+      <node id="168" label="Wolf,W.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="Georgia Tech" />
+        </attvalues>
+      </node>
+      <node id="158" label="Pinkston,T.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="USC" />
+        </attvalues>
+      </node>
+      <node id="59" label="Farrens,M.K.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. &amp; Comput. Eng., Univ. of California Davis, Davis, CA, USA" />
+        </attvalues>
+      </node>
+      <node id="19" label="SungjooYoo">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electron. &amp; Electr. Eng., Pohang Univ. of Sci. &amp; Technol. (POSTECH), Pohang, South Korea" />
+        </attvalues>
+      </node>
+      <node id="96" label="Kodi,A.K.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Sch. of Electr. Eng. &amp; Comput. Sci., Ohio Univ., Athens, OH, USA" />
+        </attvalues>
+      </node>
+      <node id="84" label="Ginosar,R.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Technion - Israel Inst. of Technol., Haifa, Israel" />
+        </attvalues>
+      </node>
+      <node id="146" label="Mullins,R.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="University of Cambridge" />
+        </attvalues>
+      </node>
+      <node id="94" label="GwanChoi">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. &amp; Comput. Eng., Texas A&amp;M Univ., College Station, TX, USA" />
+        </attvalues>
+      </node>
+      <node id="148" label="Nicolici,N.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="McMaster University" />
+        </attvalues>
+      </node>
+      <node id="109" label="ndez,C.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Univ. Politec. de Valencia, Valencia, Spain" />
+        </attvalues>
+      </node>
+      <node id="28" label="Pani,D.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="DIEE Dept. of Electr. &amp; Electron. Eng., Univ. of Cagliari, Cagliari, Italy" />
+        </attvalues>
+      </node>
+      <node id="123" label="Eles,P.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="Linkoping University" />
+        </attvalues>
+      </node>
+      <node id="85" label="Chih-HaoChao">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Grad. Inst. of Electron. Eng., Nat. Taiwan Univ., Taipei, Taiwan" />
+        </attvalues>
+      </node>
+      <node id="131" label="Henkel,J.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="University Karlsruhe" />
+        </attvalues>
+      </node>
+      <node id="79" label="Michelogiannakis,G.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Electr. Eng. Dept., Stanford Univ., Stanford, CA, USA" />
+        </attvalues>
+      </node>
+      <node id="124" label="Feldmann,P.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="IBM Research" />
+        </attvalues>
+      </node>
+      <node id="24" label="Usami,K.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Univ. of Tokyo, Tokyo, Japan" />
+        </attvalues>
+      </node>
+      <node id="133" label="Kolodny,A.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="Technion" />
+        </attvalues>
+      </node>
+      <node id="115" label="Ampadu,P.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="tpc_author_" />
+          <attvalue for="3" value="University of Rochester" />
+        </attvalues>
+      </node>
+      <node id="151" label="Ono,T.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="Sun Microsystems" />
+        </attvalues>
+      </node>
+      <node id="160" label="Silvano,C.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="Politecnico di Milano" />
+        </attvalues>
+      </node>
+      <node id="133" label="Katevenis,M.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="tpc_author_" />
+          <attvalue for="3" value="FORTH" />
+        </attvalues>
+      </node>
+      <node id="156" label="Peh,L.-Shiuan">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="Princeton University" />
+        </attvalues>
+      </node>
+      <node id="110" label="Silla,F.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Univ. Politec. de Valencia, Valencia, Spain" />
+        </attvalues>
+      </node>
+      <node id="91" label="Jain,T.N.K.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. &amp; Comput. Eng., Texas A&amp;M Univ., College Station, TX, USA" />
+        </attvalues>
+      </node>
+      <node id="163" label="Stojanovic,V.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="MIT" />
+        </attvalues>
+      </node>
+      <node id="60" label="Akella,V.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. &amp; Comput. Eng., Univ. of California Davis, Davis, CA, USA" />
+        </attvalues>
+      </node>
+      <node id="66" label="Cremonesi,A.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="STMicroelectronics, Italy" />
+        </attvalues>
+      </node>
+      <node id="153" label="Pande,P.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="Washinton State University" />
+        </attvalues>
+      </node>
+      <node id="35" label="Rodrigo,S.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Parallel Archit. Group, Tech. Univ. of Valencia, Valencia, Spain" />
+        </attvalues>
+      </node>
+      <node id="140" label="Lubaszewski,M.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="UFRGS" />
+        </attvalues>
+      </node>
+      <node id="171" label="Yoo,H.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="KAIST" />
+        </attvalues>
+      </node>
+      <node id="21" label="Matsutani,H.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Univ. of Tokyo, Tokyo, Japan" />
+        </attvalues>
+      </node>
+      <node id="45" label="Herkersdorf,A.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Inst. for Integrated Syst., Tech. Univ. Muenchen, Munich, Germany" />
+        </attvalues>
+      </node>
+      <node id="82" label="Kozyrakis,C.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Electr. Eng. Dept., Stanford Univ., Stanford, CA, USA" />
+        </attvalues>
+      </node>
+      <node id="18" label="DongkiKim">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electron. &amp; Electr. Eng., Pohang Univ. of Sci. &amp; Technol. (POSTECH), Pohang, South Korea" />
+        </attvalues>
+      </node>
+      <node id="129" label="Hansson,A.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="Eindhoven" />
+        </attvalues>
+      </node>
+      <node id="152" label="Pamunuwa,D.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="Lancaster University" />
+        </attvalues>
+      </node>
+      <node id="30" label="Raffo,L.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="DIEE Dept. of Electr. &amp; Electron. Eng., Univ. of Cagliari, Cagliari, Italy" />
+        </attvalues>
+      </node>
+      <node id="89" label="An-YeuWu">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Grad. Inst. of Electron. Eng., Nat. Taiwan Univ., Taipei, Taiwan" />
+        </attvalues>
+      </node>
+      <node id="102" label="Ventroux,N.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Embedded Comput. Lab., CEA, Gif-sur-Yvette, France" />
+        </attvalues>
+      </node>
+      <node id="117" label="Balasubramonian,R.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="University of Utah" />
+        </attvalues>
+      </node>
+      <node id="86" label="Kai-YuanJheng">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Grad. Inst. of Electron. Eng., Nat. Taiwan Univ., Taipei, Taiwan" />
+        </attvalues>
+      </node>
+      <node id="83" label="Vainbrand,D.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Technion - Israel Inst. of Technol., Haifa, Israel" />
+        </attvalues>
+      </node>
+      <node id="143" label="Marinissen,E.Jan">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="IMEC" />
+        </attvalues>
+      </node>
+      <node id="58" label="Amirtharajah,R.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. &amp; Comput. Eng., Univ. of California Davis, Davis, CA, USA" />
+        </attvalues>
+      </node>
+      <node id="95" label="Morris,R.W.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Sch. of Electr. Eng. &amp; Comput. Sci., Ohio Univ., Athens, OH, USA" />
+        </attvalues>
+      </node>
+      <node id="51" label="Medardoni,S.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Univ. Politec. de Valencia, Valencia, Spain" />
+        </attvalues>
+      </node>
+      <node id="74" label="Li-ShiuanPeh">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. Eng. &amp; Comput. Sci., Massachusettes Inst. of Technol., Cambridge, MA, USA" />
+        </attvalues>
+      </node>
+      <node id="105" label="Thonnart,Y.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="LETI, CEA, Grenoble, France" />
+        </attvalues>
+      </node>
+      <node id="157" label="Petrot,F.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="TIMA" />
+        </attvalues>
+      </node>
+      <node id="126" label="Fujita,S.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="Toshiba" />
+        </attvalues>
+      </node>
+      <node id="78" label="Mutlu,O.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. &amp; Comput. Eng., Carnegie Mellon Univ., Pittsburgh, PA, USA" />
+        </attvalues>
+      </node>
+      <node id="75" label="Bogdan,P.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. &amp; Comput. Eng., Carnegie Mellon Univ., Pittsburgh, PA, USA" />
+        </attvalues>
+      </node>
+      <node id="33" label="BillLin">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. &amp; Comput. Eng., Univ. of California, San Diego, CA, USA" />
+        </attvalues>
+      </node>
+      <node id="130" label="Hemani,A.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="KTH" />
+        </attvalues>
+      </node>
+      <node id="62" label="Chatterjee,S.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Univ. Politec. de Catalunya, Barcelona, Spain" />
+        </attvalues>
+      </node>
+      <node id="100" label="Bergman,K.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Columbia Univ., New York, NY, USA" />
+        </attvalues>
+      </node>
+      <node id="68" label="Taek-JunKwon">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Inf. Sci. Inst., Univ. of Southern California, Los Angeles, CA, USA" />
+        </attvalues>
+      </node>
+      <node id="97" label="Gebhardt,D.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Sch. of Comput., Univ. of Utah, Salt Lake City, UT, USA" />
+        </attvalues>
+      </node>
+      <node id="128" label="Goossens,K.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="NXP" />
+        </attvalues>
+      </node>
+      <node id="138" label="Locatelli,R.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="STM" />
+        </attvalues>
+      </node>
+      <node id="101" label="Guerre,A.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Embedded Comput. Lab., CEA, Gif-sur-Yvette, France" />
+        </attvalues>
+      </node>
+      <node id="164" label="Taylor,M.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="UCSD" />
+        </attvalues>
+      </node>
+      <node id="43" label="Lankes,A.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Inst. for Integrated Syst., Tech. Univ. Muenchen, Munich, Germany" />
+        </attvalues>
+      </node>
+      <node id="166" label="Vangal,S.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="Intel" />
+        </attvalues>
+      </node>
+      <node id="108" label="Herna&amp;#x0301">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Univ. Politec. de Valencia, Valencia, Spain" />
+        </attvalues>
+      </node>
+      <node id="54" label="YiWang">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Center for Adv. Comput. Studies, Univ. of Louisiana at Lafayette, Lafayette, LA, USA" />
+        </attvalues>
+      </node>
+      <node id="114" label="Ahonen,T.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="Tampere University" />
+        </attvalues>
+      </node>
+      <node id="53" label="RuizheWu">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Center for Adv. Comput. Studies, Univ. of Louisiana at Lafayette, Lafayette, LA, USA" />
+        </attvalues>
+      </node>
+      <node id="81" label="Dally,W.J.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Electr. Eng. Dept., Stanford Univ., Stanford, CA, USA" />
+        </attvalues>
+      </node>
+      <node id="127" label="Furber,S.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="University of Manchester" />
+        </attvalues>
+      </node>
+      <node id="61" label="Nikitin,N.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Univ. Politec. de Catalunya, Barcelona, Spain" />
+        </attvalues>
+      </node>
+      <node id="136" label="Lee,B.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="IBM" />
+        </attvalues>
+      </node>
+      <node id="15" label="Alfaraj,N.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. &amp; Comput. Eng., Polytech. Inst. of New York Univ., Brooklyn, NY, USA" />
+        </attvalues>
+      </node>
+      <node id="73" label="Kyung-HoaeKoo">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. Eng. &amp; Comput. Sci., Massachusettes Inst. of Technol., Cambridge, MA, USA" />
+        </attvalues>
+      </node>
+      <node id="141" label="Madsen,J.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="DTU" />
+        </attvalues>
+      </node>
+      <node id="92" label="Gratz,P.V.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. &amp; Comput. Eng., Texas A&amp;M Univ., College Station, TX, USA" />
+        </attvalues>
+      </node>
+      <node id="72" label="Krishna,T.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. Eng. &amp; Comput. Sci., Massachusettes Inst. of Technol., Cambridge, MA, USA" />
+        </attvalues>
+      </node>
+      <node id="110" label="Roca,A.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Univ. Politec. de Valencia, Valencia, Spain" />
+        </attvalues>
+      </node>
+      <node id="5" label="Plosila,J.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Inf. Technol., Univ. of Turku, Turku, Finland" />
+        </attvalues>
+      </node>
+      <node id="145" label="Moraes,F.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="PUCRS" />
+        </attvalues>
+      </node>
+      <node id="112" label="Carlberg,M.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="ECE Dept., Univ. of Maryland, College Park, MD, USA" />
+        </attvalues>
+      </node>
+      <node id="93" label="Sprintson,A.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. &amp; Comput. Eng., Texas A&amp;M Univ., College Station, TX, USA" />
+        </attvalues>
+      </node>
+      <node id="74" label="Saraswat,K.C.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. Eng. &amp; Comput. Sci., Massachusettes Inst. of Technol., Cambridge, MA, USA" />
+        </attvalues>
+      </node>
+      <node id="63" label="Cortadella,J.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Univ. Politec. de Catalunya, Barcelona, Spain" />
+        </attvalues>
+      </node>
+      <node id="133" label="Kishinevsky,M.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="tpc_author_" />
+          <attvalue for="3" value="Intel" />
+        </attvalues>
+      </node>
+      <node id="32" label="Soteriou,V.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. &amp; Comput. Eng., Univ. of California, San Diego, CA, USA" />
+        </attvalues>
+      </node>
+      <node id="52" label="Ernst,R.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Inst. of Comput. &amp; Network Eng., Tech. Univ. Braunschweig, Braunschweig, Germany" />
+        </attvalues>
+      </node>
+      <node id="142" label="Marculescu,R.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="tpc_author_" />
+          <attvalue for="3" value="Carnegie Mellon University" />
+        </attvalues>
+      </node>
+      <node id="71" label="Agarwal,N.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. Eng. &amp; Comput. Sci., Massachusettes Inst. of Technol., Cambridge, MA, USA" />
+        </attvalues>
+      </node>
+      <node id="134" label="Kundu,P.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="Intel" />
+        </attvalues>
+      </node>
+      <node id="110" label="Duato,J.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Univ. Politec. de Valencia, Valencia, Spain" />
+        </attvalues>
+      </node>
+      <node id="167" label="Vivet,P.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="CEA " />
+        </attvalues>
+      </node>
+      <node id="106" label="Lemaire,R.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="LETI, CEA, Grenoble, France" />
+        </attvalues>
+      </node>
+      <node id="3" label="Ebrahimi,M.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Inf. Technol., Univ. of Turku, Turku, Finland" />
+        </attvalues>
+      </node>
+      <node id="154" label="Parameswaran,S.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="UNSW" />
+        </attvalues>
+      </node>
+      <node id="57" label="Mejia,P.V.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. &amp; Comput. Eng., Univ. of California Davis, Davis, CA, USA" />
+        </attvalues>
+      </node>
+      <node id="47" label="Reinig,H.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Inst. for Integrated Syst., Tech. Univ. Muenchen, Munich, Germany" />
+        </attvalues>
+      </node>
+      <node id="110" label="Horak,M.N.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="ECE Dept., Univ. of Maryland, College Park, MD, USA" />
+        </attvalues>
+      </node>
+      <node id="139" label="Lu,Z.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="tpc_" />
+          <attvalue for="3" value="KTH" />
+        </attvalues>
+      </node>
+      <node id="31" label="Ramanujam,R.S.">
+        <attvalues>
+          <attvalue for="0" value="nocs2010" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="author_" />
+          <attvalue for="3" value="Dept. of Electr. &amp; Comput. Eng., Univ. of California, San Diego, CA, USA" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="114" target="114" weight="1">
+        <attvalues>
+          <attvalue for="4" value="social" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="23" target="22" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="23" target="21" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="23" target="25" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="23" target="26" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="23" target="24" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="87" target="86" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="87" target="85" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="87" target="89" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="87" target="88" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="49" target="109" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="49" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="49" target="108" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="49" target="51" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="49" target="48" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="49" target="121" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="49" target="50" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="49" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="49" target="125" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="49" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="147" target="119" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="14" target="16" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="14" target="15" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="14" target="17" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="121" target="109" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="121" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="121" target="108" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="121" target="51" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="121" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="121" target="40" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="121" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="121" target="125" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="121" target="35" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="121" target="50" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="121" target="48" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="121" target="49" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="125" target="109" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="125" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="125" target="108" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="125" target="51" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="125" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="125" target="121" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="125" target="40" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="125" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="125" target="35" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="125" target="50" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="125" target="48" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="125" target="49" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="113" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="113" target="111" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="113" target="112" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="118" target="129" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="111" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="111" target="112" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="111" target="113" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="162" target="141" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="56" source="20" target="19" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="57" source="20" target="18" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="58" source="103" target="104" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="59" source="103" target="101" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="60" source="103" target="102" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="61" source="69" target="67" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="62" source="69" target="68" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="63" source="29" target="30" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="64" source="29" target="27" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="65" source="29" target="28" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="66" source="137" target="164" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="67" source="22" target="23" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="68" source="22" target="21" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="69" source="22" target="25" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="70" source="22" target="26" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="71" source="22" target="24" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="72" source="12" target="115" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="73" source="12" target="56" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="74" source="12" target="11" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="75" source="51" target="52" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="76" source="99" target="98" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="77" source="99" target="97" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="78" source="11" target="115" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="79" source="11" target="12" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="80" source="11" target="56" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="81" source="151" target="63" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="82" source="151" target="133" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="83" source="151" target="166" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="84" source="151" target="62" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="85" source="151" target="61" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="86" source="151" target="134" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="87" source="26" target="22" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="88" source="26" target="23" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="89" source="26" target="21" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="90" source="26" target="25" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="91" source="26" target="24" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="92" source="44" target="47" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="93" source="44" target="162" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="94" source="44" target="43" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="95" source="44" target="45" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="96" source="76" target="142" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="97" source="76" target="75" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="98" source="76" target="78" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="99" source="55" target="54" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="100" source="55" target="53" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="101" source="107" target="105" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="102" source="107" target="106" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="103" source="119" target="147" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="104" source="50" target="109" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="105" source="50" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="106" source="50" target="108" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="107" source="50" target="49" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="108" source="50" target="48" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="109" source="50" target="121" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="110" source="50" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="111" source="50" target="125" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="112" source="50" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="113" source="50" target="51" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="114" source="17" target="16" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="115" source="17" target="15" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="116" source="17" target="14" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="117" source="27" target="30" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="118" source="27" target="28" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="119" source="27" target="29" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="120" source="162" target="47" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="121" source="162" target="43" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="122" source="162" target="44" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="123" source="162" target="45" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="124" source="80" target="82" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="125" source="80" target="79" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="126" source="80" target="81" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="127" source="10" target="133" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="128" source="10" target="8" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="129" source="88" target="87" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="130" source="88" target="86" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="131" source="88" target="85" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="132" source="88" target="89" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="133" source="67" target="68" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="134" source="67" target="69" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="135" source="16" target="15" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="136" source="16" target="17" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="137" source="16" target="14" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="138" source="98" target="99" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="139" source="98" target="97" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="140" source="40" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="141" source="40" target="51" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="142" source="40" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="143" source="40" target="121" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="144" source="40" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="145" source="40" target="125" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="146" source="40" target="35" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="147" source="104" target="101" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="148" source="104" target="103" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="149" source="104" target="102" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="150" source="25" target="22" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="151" source="25" target="23" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="152" source="25" target="21" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="153" source="25" target="26" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="154" source="25" target="24" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="155" source="70" target="74" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="156" source="70" target="71" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="157" source="70" target="73" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="158" source="70" target="72" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="159" source="70" target="74" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="160" source="142" target="142" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="161" source="132" target="130" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="162" source="132" target="139" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="163" source="48" target="109" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="164" source="48" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="165" source="48" target="108" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="166" source="48" target="49" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="167" source="48" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="168" source="48" target="121" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="169" source="48" target="50" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="170" source="48" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="171" source="48" target="125" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="172" source="48" target="51" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="173" source="125" target="115" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="174" source="8" target="10" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="175" source="8" target="133" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="176" source="56" target="115" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="177" source="56" target="12" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="178" source="56" target="11" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="179" source="59" target="60" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="180" source="59" target="58" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="181" source="59" target="57" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="182" source="19" target="18" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="183" source="19" target="20" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="184" source="96" target="95" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="185" source="84" target="83" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="186" source="94" target="91" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="187" source="94" target="92" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="188" source="94" target="93" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="189" source="109" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="190" source="109" target="108" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="191" source="109" target="49" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="192" source="109" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="193" source="109" target="121" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="194" source="109" target="50" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="195" source="109" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="196" source="109" target="125" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="197" source="109" target="48" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="198" source="109" target="51" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="199" source="28" target="30" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="200" source="28" target="27" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="201" source="28" target="29" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="202" source="85" target="87" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="203" source="85" target="86" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="204" source="85" target="89" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="205" source="85" target="88" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="206" source="79" target="82" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="207" source="79" target="80" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="208" source="79" target="81" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="209" source="24" target="22" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="210" source="24" target="23" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="211" source="24" target="21" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="212" source="24" target="25" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="213" source="24" target="26" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="214" source="115" target="115" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="215" source="115" target="56" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="216" source="115" target="125" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="217" source="115" target="12" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="218" source="115" target="11" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="219" source="133" target="10" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="220" source="133" target="8" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="221" source="110" target="109" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="222" source="110" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="223" source="110" target="108" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="224" source="110" target="51" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="225" source="110" target="48" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="226" source="110" target="121" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="227" source="110" target="40" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="228" source="110" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="229" source="110" target="125" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="230" source="110" target="35" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="231" source="110" target="50" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="232" source="110" target="49" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="233" source="91" target="92" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="234" source="91" target="93" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="235" source="91" target="94" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="236" source="60" target="58" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="237" source="60" target="59" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="238" source="60" target="57" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="239" source="35" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="240" source="35" target="51" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="241" source="35" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="242" source="35" target="121" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="243" source="35" target="40" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="244" source="35" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="245" source="35" target="125" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="246" source="21" target="22" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="247" source="21" target="23" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="248" source="21" target="25" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="249" source="21" target="26" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="250" source="21" target="24" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="251" source="45" target="47" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="252" source="45" target="162" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="253" source="45" target="43" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="254" source="45" target="44" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="255" source="82" target="79" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="256" source="82" target="80" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="257" source="82" target="81" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="258" source="18" target="19" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="259" source="18" target="20" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="260" source="129" target="118" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="261" source="30" target="27" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="262" source="30" target="28" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="263" source="30" target="29" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="264" source="89" target="87" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="265" source="89" target="86" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="266" source="89" target="85" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="267" source="89" target="88" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="268" source="102" target="104" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="269" source="102" target="101" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="270" source="102" target="103" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="271" source="86" target="87" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="272" source="86" target="85" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="273" source="86" target="89" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="274" source="86" target="88" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="275" source="83" target="84" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="276" source="58" target="60" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="277" source="58" target="59" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="278" source="58" target="57" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="279" source="95" target="96" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="280" source="51" target="109" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="281" source="51" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="282" source="51" target="108" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="283" source="51" target="49" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="284" source="51" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="285" source="51" target="121" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="286" source="51" target="40" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="287" source="51" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="288" source="51" target="125" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="289" source="51" target="35" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="290" source="51" target="50" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="291" source="51" target="48" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="292" source="74" target="73" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="293" source="74" target="70" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="294" source="74" target="32" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="295" source="74" target="71" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="296" source="74" target="72" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="297" source="74" target="33" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="298" source="74" target="74" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="299" source="74" target="31" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="300" source="105" target="107" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="301" source="105" target="106" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="302" source="78" target="142" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="303" source="78" target="75" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="304" source="78" target="76" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="305" source="75" target="142" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="306" source="75" target="78" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="307" source="75" target="76" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="308" source="33" target="74" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="309" source="33" target="32" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="310" source="33" target="31" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="311" source="130" target="132" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="312" source="130" target="139" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="313" source="62" target="151" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="314" source="62" target="61" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="315" source="62" target="133" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="316" source="62" target="63" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="317" source="68" target="67" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="318" source="68" target="69" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="319" source="97" target="98" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="320" source="97" target="99" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="321" source="101" target="104" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="322" source="101" target="102" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="323" source="101" target="103" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="324" source="164" target="137" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="325" source="43" target="47" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="326" source="43" target="162" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="327" source="43" target="44" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="328" source="43" target="45" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="329" source="166" target="151" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="330" source="166" target="133" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="331" source="166" target="134" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="332" source="108" target="109" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="333" source="108" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="334" source="108" target="49" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="335" source="108" target="48" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="336" source="108" target="121" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="337" source="108" target="50" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="338" source="108" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="339" source="108" target="125" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="340" source="108" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="341" source="108" target="51" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="342" source="54" target="55" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="343" source="54" target="53" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="344" source="53" target="55" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="345" source="53" target="54" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="346" source="81" target="82" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="347" source="81" target="79" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="348" source="81" target="80" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="349" source="61" target="62" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="350" source="61" target="63" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="351" source="61" target="133" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="352" source="61" target="151" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="353" source="15" target="16" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="354" source="15" target="17" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="355" source="15" target="14" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="356" source="73" target="74" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="357" source="73" target="71" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="358" source="73" target="70" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="359" source="73" target="72" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="360" source="73" target="74" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="361" source="141" target="162" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="362" source="92" target="91" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="363" source="92" target="93" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="364" source="92" target="94" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="365" source="72" target="74" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="366" source="72" target="71" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="367" source="72" target="73" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="368" source="72" target="70" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="369" source="72" target="74" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="370" source="110" target="109" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="371" source="110" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="372" source="110" target="108" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="373" source="110" target="51" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="374" source="110" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="375" source="110" target="121" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="376" source="110" target="40" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="377" source="110" target="125" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="378" source="110" target="35" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="379" source="110" target="50" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="380" source="110" target="48" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="381" source="110" target="49" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="382" source="112" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="383" source="112" target="111" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="384" source="112" target="113" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="385" source="93" target="91" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="386" source="93" target="92" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="387" source="93" target="94" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="388" source="74" target="74" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="389" source="74" target="71" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="390" source="74" target="73" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="391" source="74" target="70" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="392" source="74" target="72" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="393" source="63" target="62" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="394" source="63" target="61" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="395" source="63" target="133" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="396" source="63" target="151" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="397" source="133" target="63" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="398" source="133" target="166" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="399" source="133" target="151" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="400" source="133" target="62" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="401" source="133" target="61" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="402" source="133" target="134" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="403" source="32" target="74" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="404" source="32" target="33" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="405" source="32" target="31" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="406" source="52" target="51" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="407" source="142" target="142" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="408" source="142" target="75" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="409" source="142" target="78" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="410" source="142" target="76" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="411" source="71" target="74" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="412" source="71" target="73" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="413" source="71" target="70" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="414" source="71" target="72" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="415" source="71" target="74" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="416" source="134" target="151" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="417" source="134" target="133" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="418" source="134" target="166" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="419" source="110" target="109" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="420" source="110" target="108" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="421" source="110" target="51" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="422" source="110" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="423" source="110" target="121" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="424" source="110" target="40" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="425" source="110" target="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="426" source="110" target="125" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="427" source="110" target="35" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="428" source="110" target="50" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="429" source="110" target="48" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="430" source="110" target="49" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="431" source="106" target="105" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="432" source="106" target="107" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="433" source="57" target="60" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="434" source="57" target="58" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="435" source="57" target="59" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="436" source="47" target="162" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="437" source="47" target="43" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="438" source="47" target="44" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="439" source="47" target="45" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="440" source="110" target="112" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="441" source="110" target="111" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="442" source="110" target="113" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="443" source="139" target="130" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="444" source="139" target="132" weight="1">
+        <attvalues>
+          <attvalue for="4" value="institutional" />
+        </attvalues>
+      </edge>
+      <edge id="445" source="31" target="74" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="446" source="31" target="33" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+      <edge id="447" source="31" target="32" weight="1">
+        <attvalues>
+          <attvalue for="4" value="paper" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
