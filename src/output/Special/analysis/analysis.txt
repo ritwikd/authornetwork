@@ -28,4 +28,30 @@ In 2011, being connected to any large group resulted in a significant boost in t
 
 >>> 2013
 
-The 2013 conference was a return of the structure to the 2011 conference. There was a large, central social group. However, one difference between 2013 and 2011 was that in 2013 barely any authors had any sort of group at all. The few who did also had groups of two or less. The vast majority of connections between 2013 authors outside the social group tended to be institutional. Even the authors conected t
+The 2013 conference was a return of the structure to the 2011 conference. There was a large, central social group. However, one difference between 2013 and 2011 was that in 2013 barely any authors had any sort of group at all. The few who did also had groups of two or less. The vast majority of connections between 2013 authors outside the social group tended to be institutional. Even the authors conected to the social group were connected almost only via institutional connections to each other. 
+
+In 2013, basically no one wrote papers with anyone else except the social group. For some reason, there was very little collaboration. This is a striking departure from the structure of authors in the 2012 conference, where almost everyone collaborated with someone else no matter what.
+
+>>> 2014
+
+The 2014 conference is a blend of all the previous years. There is a large social group, but it is noticeably smaller than in previous years, and it no longer has the same kind of influence as it did in previous years. There are a lot of authors, and there is an even split between people working with others and working alone. There is however markedly more collaboration than in 2013. The center of the graph is not any single large group, but rather a disjointed, dense, and shapeless jumble of authors, most of whom are connected via institutional connections. However, coauthorship among different groups of authors is far more prevalent than before.
+
+The social group hit its critical mass in 2013, before decaying to a far smaller group in 2014. However, 2014 as a whole was a friendlier conference with markedly more collaboration and a surprisingly large amount of inter-group collaboration in addition to the expected amount of intra-group communication.
+
+
+
+>>> DAC Summary
+
+I expected that the personality of a conference would not change significantly among the years, but at least in the period of 2010 to 2014 DAC has had "mood swings" between two personality states - either overwhelmingly friendly to collaborators or very reserved and shut off. From 2011 to 2013, there was also a growing complex of elitist authors that reached critical mass and then decayed again in 2014, but during its peak times it was the largest discrete group of authors present at the conference. 
+
+
+
+
+NOCS
+----
+
+>>> 2010
+
+In the NOCS 2010 conference, there was an even spread of coauthorship, and almost every author was in a group of between two and seven people (therefore ranging from small to barely medium), and there was no single central group that was overwhelmingly larger than any other.
+
+At least in 2010, NOCS was very friendly that it 
