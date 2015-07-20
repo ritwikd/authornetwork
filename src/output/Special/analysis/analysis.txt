@@ -1,0 +1,31 @@
+“Sociological Personality of Technological Conferences”
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+DAC
+---
+
+>>> 2010
+
+The 2010 conference was comprised mostly of medium-sized (5-12 nodes) groups. Almost every single author was in a group, and an overwhelming majority of them were in the groups mentioneed before. There was also no distinct group that was larger and more central than the others, but rather several smaller groups that were interconnected via only one or two members each. In 2010, almost all TPc members were not authors, and connected to authors solely institutionally. However there were a few who were authors. A few of these members were central to the graph, but due to their institutional connections rather than their coauthorship connections. At least in 2010, being a TPC member did not lead to a significant benefit in coauthorship rates. 
+
+The DAC 2010 conference was very "friendly" in that there was not a single group that stole all the others' thunder, and almost everyone had similar numbers of coauthors for their papers. There is nothing too significant about the structure of authors and TPC members in the 2010 conference.
+
+
+>>> 2011
+
+The 2011 conference was less evenly distributed in nature. Most of the authors were actually either individual submitters or in groups with less than five people. There were two groups that were distinctly large and more central than others. One of them was a very large group of coauthors all from the same institution, and the other was a newly emerged social group, or authors from different institutions who worked on a paper together. These groups were very central in that almost all the other groups of medium-size or higher were in some way connected to one of these clusters. However, the connections between two distinct groups tended to be almost always institutional in nature. It was rare that authors wrote papers with multiple distinct groups of people.
+
+In 2011, there were far more examples of people writing papers either individually or in groups of three or less. The large group of coauthors all from the same institution did not contain all of the authors from that institution, but almost every author from that institution was in an at least medium-sized group. The same can be said about the authors connected to the social group. While people connected to the social group or large institutional group were not always necessarily in the largest groups, almost all of them were in medium-sized groups instead of very small ones. It seems like the social group and the other institutional group are in an "elite" caliber of authors, and they are very good connections to have because their connections are more likely to be sought after as coauthors than those that are in no way affiliated with them.
+
+
+>>> 2012
+
+The 2012 conference was a mix between the 2010 and 2011 conferences. Most of the authors had returned to the structure of medium sized groups rather than individual or two or three person groups. However, there was a very distinct central social group, which in fact was far larger than tha one from 2011. Also, there was no second group of even remotely similar size and density. This social group also had many members who coauthored papers with people from other groups. Previously, connections between other groups and the central social group tended to be almost entirely institutionally, but in this year there was a relatively even split between coauthorship connections and institutional connections. The medium sized groups that were most closely connected to the central social group tended to be comprised of people from the same institution who all wrote papers together. The members of the social group also tended to be from a few different institutions.
+
+In 2011, being connected to any large group resulted in a significant boost in the desirability of one as a coauthor. In 2012, almost every author found a medium-sized group of coauthors anyways, connected to the social group or not. However, those connected to the social group did tend to be in the largest of the medium groups, so the trend of social connection providing credibility boosts holds true The social group itself is a very tight knit cluster, with most of its members collaborating only inside of it. However, the members of the group near the outside had the most coauthorship connections. In this way, the social group is part of an elite tier of authors. The best of the elite only work with each other, but they greatly boost the coauthorship potential of anyone connected to them. Those among the elite who in not quite in the "inner circle" (and there is literally an inner circle) are the most prolific authors, but they do not get to collaborate as heavily with the rest of the elite. 
+
+
+>>> 2013
+
+The 2013 conference was a return of the structure to the 2011 conference. There was a large, central social group. However, one difference between 2013 and 2011 was that in 2013 barely any authors had any sort of group at all. The few who did also had groups of two or less. The vast majority of connections between 2013 authors outside the social group tended to be institutional. Even the authors conected t
