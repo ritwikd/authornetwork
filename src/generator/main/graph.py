@@ -49,7 +49,7 @@ if not path.isdir(output_path):
 # Get all files in input dir
 for filename in input_files:
     # Read each file
-    csv_file = open(filename[1], "r")
+    csv_file = open(filename[1], "rU")
 
     with csv_file as current_file:
 
